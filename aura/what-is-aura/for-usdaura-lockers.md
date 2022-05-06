@@ -1,4 +1,4 @@
-# For $AURA lockers
+# For `AURA` lockers
 
 _**See:**_
 

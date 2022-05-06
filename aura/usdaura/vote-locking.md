@@ -4,9 +4,9 @@
 
 ### Locking AURA
 
-Locked $AURA will facilitate governance of the Aura protocol. Those who lock their $AURA will be able to participate in all decisions surrounding the molding of the protocol. Locks last for 16 weeks.
+Locked `AURA` will facilitate governance of the Aura protocol. Those who lock their `AURA` will be able to participate in all decisions surrounding the molding of the protocol. Locks last for 16 weeks.
 
-These include its development and the allocation of the protocol accrued veBAL. Therefore locking will be required for users to influence the direction in which rewards are allocated. Other protocols have demonstrated the economic power this carries...
+These include its development and the allocation of the protocol accrued `veBAL`. Therefore locking will be required for users to influence the direction in which rewards are allocated. Other protocols have demonstrated the economic power this carries...
 
 
 
