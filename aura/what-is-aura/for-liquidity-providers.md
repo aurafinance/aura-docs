@@ -12,7 +12,7 @@ Balancer Pool Tokens (or BPTs) are received from [https://app.balancer.fi/#/](ht
 
 ### Balancer Gauges
 
-These BPTs can be staked in Balancer Gauges  to earn $BAL rewards. Depositors are given a "boost" up to 2.5x based on their `veBAL` balance ([https://app.balancer.fi/#/vebal](https://app.balancer.fi/#/vebal)). To get a `veBAL` balance, users usually need to lock up `$BAL` in the Balancer VotingEscrow. That's where Aura comes in...
+These BPTs can be staked in Balancer Gauges to earn $BAL rewards. Depositors are given a "boost" up to 2.5x based on their `veBAL` balance ([https://app.balancer.fi/#/vebal](https://app.balancer.fi/#/vebal)). To get a `veBAL` balance, users usually need to lock up `$BAL` in the Balancer VotingEscrow. That's where Aura comes in...
 
 
 

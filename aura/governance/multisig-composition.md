@@ -2,7 +2,7 @@
 
 Multisigs will be used for the initial bootstrapping of the project, before things are moved entirely on chain.
 
-In order to bolster decentralisation Aura will utilise a number of multisig wallets (Gnosis safe) for specific entities. The structure will consist of the following multisigs:
+In order to bolster decentralisation Aura will utilise a number of multisig wallets (Gnosis Safe) for specific entities. The structure will consist of the following multisigs:
 
 ### Protocol Multisig
 
