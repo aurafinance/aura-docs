@@ -6,9 +6,9 @@ Post proposal on [Balancer forum](https://forum.balancer.fi/t/proposal-allowlist
 
 ### Phase 2 - Liquidity bootstrapping
 
-Create initial liquidity for the $AURA token through an LBP and subsequent 80/20 AURA/ETH Balancer pool creation/funding.
+Create initial liquidity for the `AURA` token through an LBP and subsequent 80/20 AURA/ETH Balancer pool creation/funding.
 
-Also support $AURA locking.
+Also support `AURA` locking.
 
 ### Phase 3 - System bootstrapping
 
@@ -16,7 +16,7 @@ The goals in this phase are:
 
 * bootstrap system `veBAL` balance through large incentives for `auraBAL` staking
 * bootstrap token holder base through merkle drop to relevant ecosystem participants
-* bootstrap Aura governors through incentivised Aura Locking
+* bootstrap Aura governors through incentivised `AURA` Locking
 
 Additionally:
 
