@@ -25,13 +25,19 @@ Developers know their code best, and dedicated time has been taken to manually r
 
 ### Audits
 
-#### Audit 1 - Peckshield (7th Apr 2022)
+#### Audit 1 - Peckshield (4-18th Apr 2022)
 
-{% file src="../../.gitbook/assets/PeckShield-Audit-Report-AuraFinance-v1.0rc (1).pdf" %}
+{% file src="../../.gitbook/assets/PeckShield-Audit-Report-AuraFinance-v1.0.pdf" %}
 
-#### Audit 2 - Halborn (starting 16th May 2022)
+#### Audit 2 - Code4rena (11-25th May 2022)
 
-TBA.
+A $150k, 2 week long audit competition running on [https://code4rena.com/](https://code4rena.com) allows anyone with knowledge of the system, or just general bug hunters, a chance to come and contribute to the security of the Aura system before launch.
+
+
+
+#### Audit 3 - Halborn (12th May - 23rd June 2022)
+
+A 6 week audit will be performed by Halborn Security ([https://twitter.com/HalbornSecurity](https://twitter.com/HalbornSecurity)).
 
 
 
