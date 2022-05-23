@@ -12,6 +12,7 @@
 * [Launch timeline](aura/launch-timeline.md)
 * [$AURA](aura/usdaura/README.md)
   * [Distribution](aura/usdaura/distribution.md)
+  * [Allocation scaling process](aura/usdaura/allocation-scaling-process.md)
   * [Vote Locking](aura/usdaura/vote-locking.md)
 * [Governance](aura/governance/README.md)
   * [Multisig composition](aura/governance/multisig-composition.md)
