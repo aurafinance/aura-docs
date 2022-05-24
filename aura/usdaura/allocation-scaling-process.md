@@ -6,15 +6,11 @@ description: How are balances scaled for airdrops
 
 ### Process outline
 
-1. A snapshot of data is gathered for the following, at a block height not made available in advance:
-   1. BAL holders (including wallet balances, major BAL liquidity provision, incl. 80BAL-20WETH & veBAL)
-   2. Voters of the Aura proposal on Balancer’s Snapshot
-   3. Vote-locked Convex (vlCVX) holders
-   4. LobsterDAO NFT holders
+1. A snapshot of token holder data is gathered, at a specific block height
 2. Holder addresses are filtered:
    1. “Infrastructure” (e.g. CEX) addresses are removed
    2. Addresses which are not either EOAs or Gnosis Safe multi-sigs are removed
-   3. Balancer DAO addresses are removed
+   3. DAO addresses are removed
 3. Top-level allocations of AURA are defined for different groups.
 4. The allocations are calculated for each group (explained below).
 5. The allocations for each group are combined into a single allocation for each user.
@@ -25,11 +21,11 @@ description: How are balances scaled for airdrops
 
 ### Calculating allocations
 
-1.  For each group with a top-level allocation (Balancer, Convex, LobsterDAO):
+1.  For each group with a top-level allocation:
 
     1. Initial rescale
        * Considered balances are rescaled in order to reduce whale dominance and create a fairer distribution.
-       * Get the relevant unscaled balance for each user (e.g. for Balancer, each user’s total BAL holdings we captured).
+       * Get the relevant unscaled balance for each user.
        * Get the largest holding value to establish the domain of values (i.e. the considered range of balances).
        * Given the domain, create a power scaling function with an exponential transform which will be applied to each value
          * The exponent being used is `0.75`.
