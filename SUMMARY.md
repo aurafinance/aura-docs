@@ -31,3 +31,4 @@
 * [Discord](https://discord.gg/8wCvwQCrm5)
 * [Github](https://github.com/aurafinance)
 * [Aura Finance](https://aura.finance)
+* [Terms and Conditions](links/terms-and-conditions.md)
