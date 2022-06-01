@@ -26,8 +26,9 @@ description: How are balances scaled for airdrops
 ### Calculating allocations
 
 1.  For each group with a top-level allocation (Balancer, Convex, LobsterDAO):
-
-    1. Initial rescale
+    1. Apply redirections
+       * Verified redirections (e.g. for BadgerDAO and individuals) are applied to underlying balances
+    2. Initial rescale
        * Considered balances are rescaled in order to reduce whale dominance and create a fairer distribution.
        * Get the relevant unscaled balance for each user (e.g. for Balancer, each user’s total BAL holdings we captured).
        * Get the largest holding value to establish the domain of values (i.e. the considered range of balances).
@@ -37,9 +38,9 @@ description: How are balances scaled for airdrops
          * This creates an array of multipliers that scale balances according to the balance and the considered domain.
        * Get the share of the allocation for all the multipliers, and simply multiply the unscaled balances by this share.
        * This yields fairly rescaled values according to the power scale we defined for each group.
-    2. Cull shrimp
-       * Given a minimum claim size of `30 AURA` per account, remove all claimants under this threshold.
-    3. Final rescale
+    3. Cull shrimp
+       * Given a minimum claim size of `50 AURA` per account, remove all claimants under this threshold.
+    4. Final rescale
        * Same process as initial rescale; claimants that were not filtered out will receive more AURA.
 
     At each step, key metrics are logged out and the Gini coefficient is calculated to ensure that rescaling has the desired effect.
