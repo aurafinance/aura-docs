@@ -19,7 +19,7 @@ Aura has prepared for full on chain governance through the implementation of vot
 
 #### Phase 1 - Snapshot & multisigs
 
-****[Snapshot](https://snapshot.org) page will be used for all aspects (1-4) listed above. To participate in snapshot voting, community members must lock their AURA. Results of the snapshot proposals will be executed by one of two multisigs. These entities and individual signers will be required to execute transactions in accordance with snapshot vote outcomes.
+****[Snapshot](https://snapshot.org/) page will be used for all aspects (1-4) listed above. To participate in snapshot voting, community members must lock their AURA. Results of the snapshot proposals will be executed by one of two multisigs. These entities and individual signers will be required to execute transactions in accordance with snapshot vote outcomes.
 
 1, 3, 4 - **Protocol Multisig**
 
@@ -31,13 +31,13 @@ It is important that the members of these multisigs are prominent members of Bal
 
 #### Phase 2 - Full on chain voting
 
-Aura is committed to transition this mechanism completely on-chain via the likes of _Governor bravo_ in the forthcoming months when appropriate.&#x20;
+Provided it is technically feasible and doesn't require compromising on security, Aura is committed to transitioning this mechanism on-chain via the likes of _Governor bravo_ in the forthcoming months when appropriate.&#x20;
 
-"Internal governance proposals (e.g. setting fee rates)" - this will be moved on chain with GovernorBravo implementation
+"Internal governance proposals (e.g. setting fee rates)" - this can be moved on chain with GovernorBravo implementation
 
 "Aura treasury" - this can be moved forward with either [Gnosis SafeSnap](https://docs.snapshot.org/plugins/safesnap) or some sort of on chain treasury management solution
 
-"Balancer Snapshot voting" & "Balancer Gauge voting" - custom smart contracts will be used for this. Given the uptick in gas costs involved in voting for gauges each week, this solution may be deployed on a cheaper L2 and forwarded.
+"Balancer Snapshot voting" & "Balancer Gauge voting" - custom smart contracts can be used for this. Given the uptick in gas costs involved in voting for gauges each week, this solution may be deployed on a cheaper L2 and forwarded.
 
 &#x20;
 

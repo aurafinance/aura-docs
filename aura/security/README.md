@@ -31,7 +31,7 @@ Developers know their code best, and dedicated time has been taken to manually r
 
 #### Audit 2 - Code4rena (11-25th May 2022)
 
-A $150k, 2 week long audit competition running on [https://code4rena.com/](https://code4rena.com) allows anyone with knowledge of the system, or just general bug hunters, a chance to come and contribute to the security of the Aura system before launch.
+A $150k, 2 week long audit competition running on [https://code4rena.com/](https://code4rena.com/) allows anyone with knowledge of the system, or just general bug hunters, a chance to come and contribute to the security of the Aura system before launch.
 
 
 
