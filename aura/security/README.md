@@ -2,7 +2,7 @@
 
 Smart contract security is a top priority for those working on Aura Finance. All reasonable precautions must be taken to ensure the protocol is safe to use. Below is a list of some of the things we believe make smart contract systems secure.
 
-### Internally
+### Internal processes
 
 #### Codebase
 
@@ -46,4 +46,8 @@ A 6 week audit will be performed by Halborn Security ([https://twitter.com/Halbo
 External bug bounties are essential for projects. Aura will increase its bounty as more resources become available.
 
 {% embed url="https://immunefi.com/bounty/aurafinance" %}
+
+### Contact
+
+If you have any feedback or concerns, reach out to `security@aura.finance` or to a member of the team on Discord
 
