@@ -21,7 +21,7 @@ description: Deployed Aura contracts
 | stashFactory              | 0x95171c9Ef5cA540A6d3502e9547fcFE022458Eb5 |
 | extraRewardStashV3        | 0xF9C0f3431F859e773eD052758052e06B6D175742 |
 | auraBAL                   | 0x616e8BfA43F920657B3497DBf40D6b1A02D4608d |
-| auraBALBpt                | 0x6641a8c1d33bd3dec8dd85e69c63cafb5bf36388 |
+| auraBALBpt                | 0x3dd0843a028c86e0b760b1a76929d1c5ef93a2dd |
 | cvxCrvRewards             | 0x5e5ea2048475854a5702F5B8468A51Ba1296EFcC |
 | initialCvxCrvStaking      | 0xC47162863a12227E5c3B0860715F9cF721651C0c |
 | crvDepositor              | 0xeAd792B55340Aa20181A80d6a16db6A0ECd1b827 |
