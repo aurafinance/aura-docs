@@ -28,7 +28,8 @@
 ## 🔗 Links
 
 * [Twitter](https://twitter.com/aurafinance)
-* [Discord](https://discord.gg/8wCvwQCrm5)
+* [Discord](https://discord.gg/aurafinance)
+* [Forum](https://forum.aura.finance)
 * [Github](https://github.com/aurafinance)
 * [Aura Finance](https://aura.finance)
 * [Terms and Conditions](links/terms-and-conditions.md)
