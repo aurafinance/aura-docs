@@ -9,7 +9,6 @@
   * [For $BAL stakers](aura/what-is-aura/for-usdbal-stakers.md)
   * [For $AURA lockers](aura/what-is-aura/for-usdaura-lockers.md)
   * [Fees](aura/what-is-aura/fees.md)
-* [Launch timeline](aura/launch-timeline.md)
 * [$AURA](aura/usdaura/README.md)
   * [Distribution](aura/usdaura/distribution.md)
   * [Allocation scaling process](aura/usdaura/allocation-scaling-process.md)
