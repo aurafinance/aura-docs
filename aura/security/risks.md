@@ -1,6 +1,6 @@
 # Risks
 
-Aura Finance Protocol has been built with safety and security in mind. However, there are inherent risks when interacting with any DeFi smart contracts. Our team has vigorously reviewed its smart contracts, and also pursued external auditors to identify potential vulnerabilities in the platform prior to launch. Even so, the possibility of losing some or all of your funds is present for certain risks as further discussed below.&#x20;
+Aura Finance Protocol has been built with safety and security in mind. However, there are inherent risks when interacting with any DeFi smart contracts. Our contributors have vigorously reviewed its smart contracts, and also pursued external auditors to identify potential vulnerabilities in the platform prior to launch. Even so, the possibility of losing some or all of your funds is present for certain risks as further discussed below.&#x20;
 
 Firstly, The relevant technologies depend on public peer-to-peer networks such as [Ethereum](https://ethereum.org/en/) that are not under the control or influence of the Aura community and are subject to many risks and uncertainties (such as cyber attacks, regulatory uncertainties or chain “forks”). The Aura Finance smart contracts (or Balancer’s or another) deployed, may not be possible to modify, and in the event that the smart contracts are adversely affected by malfunctions, bugs, hacking, negligent coding or design choices, you may be exposed to a risk of total loss of all relevant digital assets.&#x20;
 

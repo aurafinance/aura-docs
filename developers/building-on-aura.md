@@ -5,7 +5,7 @@ description: How to integrate with the Aura Finance protocol
 # Building on Aura
 
 {% hint style="info" %}
-These docs are still a work in progress. Reach out to the team if you have any requests or get stuck integrating
+These docs are still a work in progress. Reach out on Discord if you have any requests or get stuck integrating
 {% endhint %}
 
 ### Finding the contracts

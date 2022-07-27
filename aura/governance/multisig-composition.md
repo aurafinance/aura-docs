@@ -8,7 +8,7 @@ In order to bolster decentralisation Aura will utilise a number of multisig wall
 
 Initially consisting of 7 signers (4/7 majority needed). The proposed delegation of the signature keys are as follows:
 
-* 3 x Aura team
+* 3 x Aura contributors
 * 2 x Balancer Ballers
 * 2 x Reputable/known DeFi community members
 
@@ -20,4 +20,3 @@ The treasury will initially consist of 7 signers with a 4 sig majority required:
 
 * 2 x Aura affiliates
 * 5 x Reputable/known DeFi community members
-

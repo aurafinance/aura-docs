@@ -39,9 +39,7 @@ No critical issues found. Report pending.
 
 A 6 week audit has been performed by Halborn Security ([https://twitter.com/HalbornSecurity](https://twitter.com/HalbornSecurity)).
 
-{% file src="../../.gitbook/assets/Halborn-Audit-Report-AuraFinance-v1.0 (1).pdf" %}
-
-
+{% file src="../../.gitbook/assets/Halborn-Audit-Report-AuraFinance-v1.0.pdf" %}
 
 ### Bug bounties
 
@@ -51,5 +49,5 @@ External bug bounties are essential for projects. Aura will increase its bounty 
 
 ### Contact
 
-If you have any feedback or concerns, reach out to `security@aura.finance` or to a member of the team on Discord
+If you have any feedback or concerns, reach out to `security@aura.finance` or to an admin on Discord
 
