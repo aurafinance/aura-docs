@@ -33,7 +33,7 @@ Developers know their code best, and dedicated time has been taken to manually r
 
 A $150k, 2 week long audit competition ran on [https://code4rena.com/](https://code4rena.com/) allowed anyone with knowledge of the system, or just general bug hunters, a chance to come and contribute to the security of the Aura system before launch.
 
-No critical issues found. Report pending.
+{% file src="../../.gitbook/assets/Code4rena-Audit-Report-AuraFinance-v1.0.pdf" %}
 
 #### Audit 3 - Halborn (12th May - 23rd June 2022)
 
