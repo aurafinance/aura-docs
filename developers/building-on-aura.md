@@ -12,7 +12,7 @@ These docs are still a work in progress. Reach out on Discord if you have any re
 
 Find all Aura contracts here:
 
-{% embed url="https://github.com/aurafinance/aura-contracts-lite" %}
+{% embed url="https://github.com/aurafinance/aura-contracts" %}
 
 With modified code from the Convex platform here:
 
