@@ -15,6 +15,7 @@
   * [Vote Locking](aura/usdaura/vote-locking.md)
 * [Governance](aura/governance/README.md)
   * [Multisig composition](aura/governance/multisig-composition.md)
+  * [Multisig Rights](aura/governance/multisig-rights.md)
   * [Gauge voting](aura/governance/gauge-voting.md)
 * [Security](aura/security/README.md)
   * [Risks](aura/security/risks.md)

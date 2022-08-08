@@ -30,3 +30,6 @@ Find the reference implementation here:
 Note: `auraBAL` and `vlAURA` reward contracts are not on the 4626 standard&#x20;
 {% endhint %}
 
+{% hint style="info" %}
+Aura is price agnostic and thus does not require oracles.  Flash loans or any other type of price manipulation or front running do not affect the Aura system.
+{% endhint %}
