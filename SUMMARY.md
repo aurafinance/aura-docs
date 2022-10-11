@@ -25,6 +25,7 @@
 * [Building on Aura](developers/building-on-aura.md)
 * [Deployed addresses](developers/deployed-addresses.md)
 * [Solidity API](developers/solidity-api.md)
+* [Logo](developers/logo.md)
 
 ## 🔗 Links
 
