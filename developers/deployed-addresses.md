@@ -42,6 +42,8 @@ description: Deployed Aura contracts
 | ClaimZap                  | 0x623B83755a39B12161A63748f3f595A530917Ab2 |
 | FeeCollector              | 0xCEeCeA8035e81C1148210DB3b2f870F470CC81bf |
 | RewardDepositWrapper      | 0xB188b1CB84Fb0bA13cb9ee1292769F903A9feC59 |
+| ClaimFeesHelper           | 0x999dBcE0A18F721F04E793f916C30e72A9D0f56E |
+|                           |                                            |
 {% endtab %}
 
 {% tab title="Kovan" %}

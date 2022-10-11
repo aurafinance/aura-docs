@@ -2,7 +2,7 @@
 
 ### Locking AURA
 
-Locked `AURA` will facilitate governance of the Aura protocol. Those who lock their `AURA` before the start of the following epoch will be able to participate in all decisions surrounding the molding of the protocol. Locks last for 16 weeks.
+Locked `AURA` will facilitate governance of the Aura protocol. Those who lock their `AURA` and delegate their voting (self-delegation allowed), before the start of the following epoch will be able to participate in all decisions surrounding the molding of the protocol. Locks last for 16 weeks.
 
 Locked `AURA` also provides voting power for Balancer governance; locked `AURA` balances are mapped to system-owned `veBAL`.
 
@@ -36,7 +36,7 @@ After locking Aura, you can view your Balancer voting power and set a delegate b
 
 **Balancer gauge voting**
 
-It is possible to direct the flow of incentives on the Balancer protocol by voting for specific gauges. There are substantial bribe markets developing, like [Redacted Hidden Hand](https://mirror.xyz/0xE90c74145245B498fef924fAdC7bb34253c7cF90/CZDYoNk97LWOSvnOXst5ugbM5B1WHlcW3MCu4-5LIFE). This allows you to earn substantial revenue for your votes.
+It is possible to direct the flow of incentives on the Balancer protocol by voting for specific gauges. There are substantial markets developing to offer incentives for voting for specific gauges, like[ Hidden Hand by Redacted](https://hiddenhand.finance/aura). This allows you to earn substantial revenue for your votes.
 
 **Internal governance**
 

@@ -10,7 +10,7 @@ Aura's proposed and intended token emission and distribution will resemble the f
 
 * 50% Balancer LP rewards Rewarded pro-rata for BAL received on Aura
 * 10% for StableSwap auraBAL/BPT over 4 years
-* 2% to be sold in an LBP to bootstrap liquidity
+* 2% added to an LBP to bootstrap liquidity
 * 3% to be paired with earned ETH in an 80/20 AURA/ETH LP (initial liquidity)
 * 17.5% Treasury vested over 4 years
 * 2.5% bootstrapping token holder base
@@ -22,24 +22,22 @@ Aura's proposed and intended token emission and distribution will resemble the f
 
 #### Changes to pre-launch schedule:
 
-* Just under 1.7 million of 2 million $AURA planned were sold in the LBP.
-* 2 million of the allocated 3 million $AURA planned were paired with ETH for initial liquidty.
-* Just under 1.5 million of the 2.5 million $AURA planned were clawed back from the airdrop.
-  * 1.12 $AURA million of the 1.5 million clawed back to [incentivise AURA liquidty](https://forum.aura.finance/t/aip-6-deepening-aura-eth-liquidity-with-hidden-hand-incentives-from-treasury/108) and [Increase float while funding DAO operations](https://forum.aura.finance/t/aip-3-increasing-aura-float-and-liquidity-while-building-dao-runway/92/23).
-  * just under 317,000 remaining AURA from the airdrop were returned to the community treasury.
+* Just under 1.7 million of 2 million planned were claimed in the LBP.
+* 2 million of the allocated 3 million planned were paired with ETH for initial liquidity.
+* Just under 1.5 million of the 2.5 million earmarked for bootstrapping token holder base were clawed back due to being unclaimed.
 
 In net this resulted in an additional 2.82 M million AURA added to the community treasury, for a total of 2.82% of supply.
 
 **Additional AURA allocated by governance in the first 16 week locking epoch(current as of 10.10.2022):**
 
-| AIP                                                                                                                                                        | AURA Spent    | % Supply  |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | --------- |
-| [AIP-1 - Fund Community Management](https://forum.aura.finance/t/aip-1-community-management-and-growth/21)                                                 | 50,000        | 0.05%     |
-| [AIP-3 - increase float + raise operational funds](https://forum.aura.finance/t/aip-3-increasing-aura-float-and-liquidity-while-building-dao-runway/92/23) | 350,000       | 0.35%     |
-| [AIP-5 - Aura Foundation](https://forum.aura.finance/t/aip-5-aura-foundation-funding-proposal/104/19)                                                      | 300,000       | 0.30%     |
-| [AIP-6 HH incentives for AURA/ETH LP](https://forum.aura.finance/t/aip-6-deepening-aura-eth-liquidity-with-hidden-hand-incentives-from-treasury/108/8)     | 780,000       | 0.78%     |
-| [AIP-15 Ecosystem fund](https://forum.aura.finance/t/aip-15-aura-ecosystem-fund/204/14)                                                                    | 500,000       | 0.50%     |
-| **Total AURA spent by AIP**                                                                                                                                | **1,980,000** | **1.99%** |
+| AIP                                                                                                                                                      | Units         | % Supply  |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | --------- |
+| [AIP-1 - Fund Community Management](https://forum.aura.finance/t/aip-1-community-management-and-growth/21)                                               | 50,000        | 0.05%     |
+| [AIP-3 - Increase float](https://forum.aura.finance/t/aip-3-increasing-aura-float-and-liquidity-while-building-dao-runway/92/23)                         | 350,000       | 0.35%     |
+| [AIP-5 - Aura Foundation](https://forum.aura.finance/t/aip-5-aura-foundation-funding-proposal/104/19)                                                    | 300,000       | 0.30%     |
+| [AIP-6 - HH incentives for AURA/ETH LP](https://forum.aura.finance/t/aip-6-deepening-aura-eth-liquidity-with-hidden-hand-incentives-from-treasury/108/8) | 780,000       | 0.78%     |
+| [AIP-15 - Ecosystem fund](https://forum.aura.finance/t/aip-15-aura-ecosystem-fund/204/14)                                                                | 500,000       | 0.50%     |
+| **Total AURA spent by AIP**                                                                                                                              | **1,980,000** | **1.98%** |
 
 
 
