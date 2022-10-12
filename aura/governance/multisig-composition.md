@@ -1,6 +1,6 @@
 # Multisig composition
 
-Multisigs will be used for the initial bootstrapping of the project, before things are moved entirely on chain.
+Multisigs will be used for the initial bootstrapping of the project and for governing key parameters.
 
 In order to bolster decentralisation Aura will utilise a number of multisig wallets (Gnosis Safe) for specific entities. The structure will consist of the following multisigs:
 

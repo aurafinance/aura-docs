@@ -33,7 +33,7 @@ Read more about the [multisig composition here](multisig-composition.md).
 
 Provided it is technically feasible and doesn't require compromising on security, Aura is committed to transitioning this mechanism on-chain via the likes of _Governor bravo_ in the forthcoming months when appropriate.&#x20;
 
-"Internal governance proposals (e.g. setting fee rates)" - this can be moved on chain with GovernorBravo implementation
+"Internal governance proposals (e.g. setting fee rates)" - this can be moved on chain with GovernorBravo implementation once the vote distribution is sufficiently mature
 
 "Aura treasury" - this can be moved forward with either [Gnosis SafeSnap](https://docs.snapshot.org/plugins/safesnap) or some sort of on chain treasury management solution
 

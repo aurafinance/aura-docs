@@ -32,11 +32,13 @@ Unlike Aura delegation, you can cast votes on Balancer without first self-delega
 
 After locking Aura, you can view your Balancer voting power and set a delegate by selecting the "Balancer" tab on the [Lock page](https://app.aura.finance/#/lock) of the Aura frontend, or by using [Balancer's Snapshot space](https://snapshot.org/#/delegate/balancer.eth).&#x20;
 
+
+
 ### Uses
 
 **Balancer gauge voting**
 
-It is possible to direct the flow of incentives on the Balancer protocol by voting for specific gauges. There are substantial markets developing to offer incentives for voting for specific gauges, like[ Hidden Hand by Redacted](https://hiddenhand.finance/aura). This allows you to earn substantial revenue for your votes.
+It is possible to direct the flow of incentives on the Balancer protocol by voting for specific gauges. There are substantial markets developing to offer incentives for voting for specific gauges, like[ Hidden Hand by Redacted](https://hiddenhand.finance/aura). This allows you to earn additional rewards.
 
 **Internal governance**
 

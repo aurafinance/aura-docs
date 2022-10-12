@@ -1,6 +1,6 @@
 # Gauge voting
 
-It is possible to direct the flow of incentives on the Balancer protocol by voting for specific gauges. There are substantial bribe markets developing, like [Redacted Hidden Hand](https://hiddenhand.finance/). This allows Aura Lockers to earn substantial revenue for their votes.
+It is possible to direct the flow of incentives on the Balancer protocol by voting for specific gauges. There are substantial secondary markets developing, like [Redacted Hidden Hand](https://hiddenhand.finance/). This allows Aura Lockers to earn additional substantial rewards.
 
 
 
