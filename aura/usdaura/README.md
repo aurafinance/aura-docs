@@ -1,12 +1,10 @@
-# AURA
+# $AURA
 
 **Emission**
 
-{% content-ref url="distribution.md" %}
-[distribution.md](distribution.md)
+{% content-ref url="distribution/" %}
+[distribution](distribution/)
 {% endcontent-ref %}
-
-
 
 **Utility**
 
@@ -14,11 +12,8 @@
 [vote-locking.md](vote-locking.md)
 {% endcontent-ref %}
 
-
-
 **Governance**
 
 {% content-ref url="../governance/" %}
 [governance](../governance/)
 {% endcontent-ref %}
-

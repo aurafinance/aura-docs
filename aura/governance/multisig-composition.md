@@ -20,3 +20,8 @@ The treasury will initially consist of 7 signers with a 4 sig majority required:
 
 * 2 x Aura affiliates
 * 5 x Reputable/known DeFi community members
+
+### Multi-sig Evolution
+
+[AIP-8 Multisig best practices Framework](https://forum.aura.finance/t/aip-8-multi-sig-best-practices-framework/142) was approved by governance and is now used to ensure the multi-sig remains active.  While at the time of this writing, the current breakdown of signers remains accurate, it may change in the future based on regular governance assessing multisig livliness such as [AIP-16](https://forum.aura.finance/t/aip-16-multisig-performances-updates/220/7).
+
