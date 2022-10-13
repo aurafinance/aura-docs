@@ -26,7 +26,7 @@ Aura's proposed and intended token emission and distribution will resemble the f
 * 2 million of the allocated 3 million planned were paired with ETH for initial liquidity.
 * Just under 1.5 million of the 2.5 million earmarked for bootstrapping token holder base were clawed back due to being unclaimed.
 
-In net this resulted in an additional 2.82 M million AURA added to the community treasury, for a total of 2.82% of supply.
+In net this resulted in an additional 2.82 million AURA added to the community treasury, for a total of 2.82% of supply.
 
 **Additional AURA allocated by governance in the first 16 week locking epoch(current as of 10.10.2022):**
 
