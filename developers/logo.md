@@ -8,13 +8,11 @@ description: >-
 
 ## Logo
 
+&#x20;                  ![](../.gitbook/assets/AURA\_ISO\_colors.png)       ![](<../.gitbook/assets/AURA\_ISO\_colors copy.png>)      ![](../.gitbook/assets/Union.png)
+
 <figure><img src="../.gitbook/assets/03-the-logo-02.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/03-the-logo-03.png" alt=""><figcaption></figcaption></figure>
-
 <figure><img src="../.gitbook/assets/03-the-logo-04 (1).png" alt=""><figcaption></figcaption></figure>
-
-&#x20;                  ![](../.gitbook/assets/AURA\_ISO\_colors.png)       ![](<../.gitbook/assets/AURA\_ISO\_colors copy (1).png>)      ![](../.gitbook/assets/Union.png)
 
 
 

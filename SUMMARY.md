@@ -25,7 +25,7 @@
 * [Building on Aura](developers/building-on-aura.md)
 * [Deployed addresses](developers/deployed-addresses.md)
 * [Solidity API](developers/solidity-api.md)
-* [Brand Guidelines](developers/brand-guidelines.md)
+* [Brand Guidelines](developers/logo.md)
 
 ## 🔗 Links
 
