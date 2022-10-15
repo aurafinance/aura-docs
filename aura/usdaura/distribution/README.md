@@ -17,7 +17,7 @@ Aura's proposed and intended token emission and distribution will resemble the f
 * 1% for future incentives
 * 2% BAL treasury over 2 years
 * 2% veBAL bootstrapping incentives
-* 10% for the Aura team over 2 years
+* 10% for the Aura contributors over 2 years
 * 100% Fair launched no VC - Seed investors
 
 #### Changes to pre-launch schedule:
