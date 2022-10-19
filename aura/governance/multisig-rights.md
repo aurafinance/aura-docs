@@ -27,7 +27,7 @@ Most of all Aura governance follows the process described [here](./),  once the 
 * [Booster](https://etherscan.io/address/0x7818A1DA7BD1E64c199029E86Ba244a9798eEE10)&#x20;
   * Change platform fees allocated to stakers within hard-coded ranges,  with an absolute fee ceiling of 25%
 * [Voter Proxy ](https://etherscan.io/address/0xaF52695E1bB01A16D33D7194C28C42b10e0Dbec2)
-  * Set reward withdrawer and deposit for when unprotected tokens end up in the VoterProxy from direct or airdrop bribes to ve holders.
+  * Set reward withdrawer and deposit for when unprotected tokens end up in the VoterProxy from direct or airdrop incentives to ve holders.
   * Set the gaugeController and minter (BAL) address
   * Apply a new "operator" on the [whitelisted proxy contract](https://etherscan.io/address/0xaF52695E1bB01A16D33D7194C28C42b10e0Dbec2) if and ONLY if the operator is not set or the Booster completely shutdown.
 * Shutdown/pause new deposits to Pool staking contracts.
