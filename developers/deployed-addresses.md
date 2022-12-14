@@ -12,7 +12,7 @@ description: Deployed Aura contracts
 | ------------------------- | ------------------------------------------ |
 | VoterProxy                | 0xaF52695E1bB01A16D33D7194C28C42b10e0Dbec2 |
 | Aura                      | 0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF |
-| Booster                   | 0x7818A1DA7BD1E64c199029E86Ba244a9798eEE10 |
+| Booster                   | 0xA57b8d98dAE62B26Ec3bcC4a365338157060B234 |
 | BoosterOwner              | 0xFa838Af70314135159b309bf27f1DbF1F954eC34 |
 | RewardFactory             | 0x45aaD11F2FA2C215bc9686eb6f06D46E0474F356 |
 | TokenFactory              | 0xb6CE51DEE8BD4A2Fd11c01205414dc26f0b453AC |
@@ -20,7 +20,7 @@ description: Deployed Aura contracts
 | StashFactory              | 0x95171c9Ef5cA540A6d3502e9547fcFE022458Eb5 |
 | ExtraRewardStashV3        | 0xF9C0f3431F859e773eD052758052e06B6D175742 |
 | auraBAL                   | 0x616e8BfA43F920657B3497DBf40D6b1A02D4608d |
-| auraBAL Rewards           | 0x5e5ea2048475854a5702F5B8468A51Ba1296EFcC |
+| auraBAL Rewards           | 0x00A7BA8Ae7bca0B10A32Ea1f8e2a1Da980c6CAd2 |
 | auraBAL bootstrapping     | 0xC47162863a12227E5c3B0860715F9cF721651C0c |
 | crvDepositor              | 0xeAd792B55340Aa20181A80d6a16db6A0ECd1b827 |
 | crvDepositorWrapper       | 0x68655AD9852a99C87C0934c7290BB62CFa5D4123 |
@@ -39,13 +39,14 @@ description: Deployed Aura contracts
 |                           | 0xFd72170339AC6d7bdda09D1eACA346B21a30D422 |
 | Drops                     | 0x45EB1A004373b1D8457134A2C04a42d69D287724 |
 |                           | 0x1a661CF8D8cd69dD2A423F3626A461A24280a8fB |
-| ClaimZap                  | 0x623B83755a39B12161A63748f3f595A530917Ab2 |
+| ClaimZap                  | 0x2E307704EfaE244c4aae6B63B601ee8DA69E92A9 |
 | FeeCollector              | 0xCEeCeA8035e81C1148210DB3b2f870F470CC81bf |
 | RewardDepositWrapper      | 0xB188b1CB84Fb0bA13cb9ee1292769F903A9feC59 |
 | ClaimFeesHelper           | 0x999dBcE0A18F721F04E793f916C30e72A9D0f56E |
 | Aura Mediators (NFT)      | 0xfbd41e0c4517a684c121aa7dda2fc462d9592e63 |
 | Migrator                  | 0x7954bcdce86e86bee7b1deff48c3a0b9bcce578b |
 | Delegate                  | 0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446 |
+| PoolMigrator              | 0x12addE99768a82871EAaecFbDB065b12C56F0578 |
 {% endtab %}
 
 {% tab title="Kovan" %}
