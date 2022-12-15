@@ -30,7 +30,7 @@
   * [See reward tokens / yield on Aura Pools](developers/how-to-\_\_\_/see-reward-tokens-yield-on-aura-pools.md)
   * [Calculate APRs from Aura pool yield](developers/how-to-\_\_\_/calculate-aprs-from-aura-pool-yield.md)
   * [Calculate pool boost](developers/how-to-\_\_\_/calculate-pool-boost.md)
-  * [Subgraph for Aura data](developers/how-to-\_\_\_/subgraph-for-aura-data.md)
+  * [Aura Subgraphs](developers/how-to-\_\_\_/aura-subgraphs.md)
   * [Calculate projected APRs](developers/how-to-\_\_\_/calculate-projected-aprs.md)
   * [Get Balancer LP price](developers/how-to-\_\_\_/get-balancer-lp-price.md)
 

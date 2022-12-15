@@ -43,7 +43,7 @@ description: Deployed Aura contracts
 | FeeCollector              | 0xCEeCeA8035e81C1148210DB3b2f870F470CC81bf |
 | RewardDepositWrapper      | 0xB188b1CB84Fb0bA13cb9ee1292769F903A9feC59 |
 | ClaimFeesHelper           | 0x999dBcE0A18F721F04E793f916C30e72A9D0f56E |
-| Aura Mediators (NFT)      | 0xfbd41e0c4517a684c121aa7dda2fc462d9592e63 |
+| Aura Meditators (NFT)     | 0xfbd41e0c4517a684c121aa7dda2fc462d9592e63 |
 | Migrator                  | 0x7954bcdce86e86bee7b1deff48c3a0b9bcce578b |
 | Delegate                  | 0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446 |
 | PoolMigrator              | 0x12addE99768a82871EAaecFbDB065b12C56F0578 |
