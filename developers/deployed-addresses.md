@@ -13,25 +13,25 @@ description: Deployed Aura contracts
 | VoterProxy                | 0xaF52695E1bB01A16D33D7194C28C42b10e0Dbec2 |
 | Aura                      | 0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF |
 | Booster                   | 0xA57b8d98dAE62B26Ec3bcC4a365338157060B234 |
-| BoosterOwner              | 0xFa838Af70314135159b309bf27f1DbF1F954eC34 |
-| RewardFactory             | 0x45aaD11F2FA2C215bc9686eb6f06D46E0474F356 |
-| TokenFactory              | 0xb6CE51DEE8BD4A2Fd11c01205414dc26f0b453AC |
-| ProxyFactory              | 0x7eD9003C6003EaCe1e8C3ae99F0Bb19894377b0F |
-| StashFactory              | 0x95171c9Ef5cA540A6d3502e9547fcFE022458Eb5 |
-| ExtraRewardStashV3        | 0xF9C0f3431F859e773eD052758052e06B6D175742 |
+| BoosterOwner              | 0x228a142081b456a9fF803d004504955032989f04 |
+| RewardFactory             | 0xBC8d9cAf4B6bf34773976c5707ad1F2778332DcA |
+| TokenFactory              | 0x3eC040DbF7D953216F4C89A2e665d5073445f5Ba |
+| ProxyFactory              | 0xf5E2cFde016bd55BEF42a5A4bAad7E21cd39720d |
+| StashFactory              | 0x54da426EFBB93fbaB5CF81bef03F9B9F00A3E915 |
+| ExtraRewardStashV3        | 0x37C3EBfD4b0cF66DF19a413e92dd21E556915F98 |
 | auraBAL                   | 0x616e8BfA43F920657B3497DBf40D6b1A02D4608d |
 | auraBAL Rewards           | 0x00A7BA8Ae7bca0B10A32Ea1f8e2a1Da980c6CAd2 |
 | auraBAL bootstrapping     | 0xC47162863a12227E5c3B0860715F9cF721651C0c |
 | crvDepositor              | 0xeAd792B55340Aa20181A80d6a16db6A0ECd1b827 |
 | crvDepositorWrapper       | 0x68655AD9852a99C87C0934c7290BB62CFa5D4123 |
-| PoolManager               | 0xf843F61508Fc17543412DE55B10ED87f4C28DE50 |
+| PoolManager               | 0xB58Eb197c35157E6F3351718C4C387D284562BE5 |
 | AuraLocker (vlAURA)       | 0x3Fa73f1E5d8A792C80F426fc8F84FBF7Ce9bBCAC |
 | AuraStakingProxy          | 0xd9e863B7317a66fe0a4d2834910f604Fd6F89C6c |
 | Chef                      | 0x1ab80F7Fb46B25b7e0B2cfAC23Fc88AC37aaf4e9 |
 | PenaltyForwarder          | 0x4043569200F7a7a1D989AbbaBC2De2Bde1C20D1E |
 | ExtraRewardsDistributor   | 0xA3739b206097317c72EF416F0E75BB8f58FbD308 |
-| PoolManagerProxy          | 0x16A04E58a77aB1CE561A37371dFb479a8594947A |
-| PoolManagerSecondaryProxy | 0xdc274F4854831FED60f9Eca12CaCbD449134cF67 |
+| PoolManagerProxy          | 0x2c809Ec701C088099c911AF9DdfA4A1Db6110F3c |
+| PoolManagerSecondaryProxy | 0xa72932Aea1392b0Da9eDc34178dA2B29EcE2de54 |
 | VestedEscrows             | 0x5bd3fCA8D3d8c94a6419d85E0a76ec8Da52d836a |
 |                           | 0x24346652e0e2aE0CE05c781501fDF4Fe4553fAc6 |
 |                           | 0x45025Ebc38647bcf7Edd2b40CfDaF3fbfE1538F5 |
@@ -42,11 +42,14 @@ description: Deployed Aura contracts
 | ClaimZap                  | 0x2E307704EfaE244c4aae6B63B601ee8DA69E92A9 |
 | FeeCollector              | 0xCEeCeA8035e81C1148210DB3b2f870F470CC81bf |
 | RewardDepositWrapper      | 0xB188b1CB84Fb0bA13cb9ee1292769F903A9feC59 |
-| ClaimFeesHelper           | 0x999dBcE0A18F721F04E793f916C30e72A9D0f56E |
+| ClaimFeesHelper           | 0xAf824c80aA77Ae7F379DA3Dc05fea0dC1941c200 |
 | Aura Meditators (NFT)     | 0xfbd41e0c4517a684c121aa7dda2fc462d9592e63 |
 | Migrator                  | 0x7954bcdce86e86bee7b1deff48c3a0b9bcce578b |
 | Delegate                  | 0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446 |
 | PoolMigrator              | 0x12addE99768a82871EAaecFbDB065b12C56F0578 |
+| BoosterHelper             | 0x82bbbC3c7B459913Ae6063858832a6C2c43D0Bd0 |
+| MasterChefRewardHook      | 0xB5932c9CfdE9aDDa6D578FA168D7F8D2688b84Da |
+| SiphonToken               | 0x0B7918e20479EF0Ad21A302E463Dc7624BdDc740 |
 {% endtab %}
 
 {% tab title="Kovan" %}
