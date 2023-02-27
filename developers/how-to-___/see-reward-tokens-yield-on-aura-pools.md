@@ -60,3 +60,13 @@
         };
         ```
 
+
+
+{% hint style="danger" %}
+#### Don't use onchain queries
+
+After **AuraMinter.inflationProtectionTime()** has passed, this calculation might not be valid
+{% endhint %}
+
+* A solidity library implementation can be found here (AuraMining): [https://etherscan.io/address/0x744Be650cea753de1e69BF6BAd3c98490A855f52](https://etherscan.io/address/0x744Be650cea753de1e69BF6BAd3c98490A855f52)
+

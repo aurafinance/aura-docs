@@ -50,6 +50,7 @@ description: Deployed Aura contracts
 | BoosterHelper             | 0x82bbbC3c7B459913Ae6063858832a6C2c43D0Bd0 |
 | MasterChefRewardHook      | 0xB5932c9CfdE9aDDa6D578FA168D7F8D2688b84Da |
 | SiphonToken               | 0x0B7918e20479EF0Ad21A302E463Dc7624BdDc740 |
+| AuraMining                | 0x744Be650cea753de1e69BF6BAd3c98490A855f52 |
 {% endtab %}
 
 {% tab title="Kovan" %}
