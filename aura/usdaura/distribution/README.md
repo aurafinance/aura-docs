@@ -4,7 +4,7 @@ Aura's proposed and intended token emission and distribution will resemble the f
 
 ### Emission
 
-![](<../../../.gitbook/assets/aura emission.png>)
+<figure><img src="../../../.gitbook/assets/telegram-cloud-photo-size-1-4915695117038365511-y.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Distribution stated before launch
 
