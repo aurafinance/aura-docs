@@ -44,9 +44,10 @@ description: Deployed Aura contracts
 | RewardDepositWrapper      | 0xB188b1CB84Fb0bA13cb9ee1292769F903A9feC59 |
 | ClaimFeesHelper           | 0xAf824c80aA77Ae7F379DA3Dc05fea0dC1941c200 |
 | Aura Meditators (NFT)     | 0xfbd41e0c4517a684c121aa7dda2fc462d9592e63 |
-| Migrator                  | 0x7954bcdce86e86bee7b1deff48c3a0b9bcce578b |
-| Delegate                  | 0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446 |
+| GaugeMigrator             | 0x7954bcdce86e86bee7b1deff48c3a0b9bcce578b |
 | PoolMigrator              | 0x12addE99768a82871EAaecFbDB065b12C56F0578 |
+| UniswapMigrator           | 0x5B6159F43585e8A130b0Bc1d31e38Ce7028145b6 |
+| Delegate                  | 0x469788fE6E9E9681C6ebF3bF78e7Fd26Fc015446 |
 | BoosterHelper             | 0x82bbbC3c7B459913Ae6063858832a6C2c43D0Bd0 |
 | MasterChefRewardHook      | 0xB5932c9CfdE9aDDa6D578FA168D7F8D2688b84Da |
 | SiphonToken               | 0x0B7918e20479EF0Ad21A302E463Dc7624BdDc740 |
