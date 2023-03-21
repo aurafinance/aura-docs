@@ -23,7 +23,8 @@
 ## 🛠 DEVELOPERS
 
 * [Deployed addresses](developers/deployed-addresses.md)
-* [Solidity API](developers/solidity-api.md)
+* [Solidity API](developers/solidity-api/README.md)
+  * [AuraBalVault  - Compounder](developers/solidity-api/aurabalvault-compounder.md)
 * [Building on Aura](developers/building-on-aura.md)
 * [Brand Guidelines](developers/logo.md)
 * [How To \_\_\_](developers/how-to-\_\_\_/README.md)
