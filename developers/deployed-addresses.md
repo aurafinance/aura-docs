@@ -39,7 +39,7 @@ description: Deployed Aura contracts
 |                             | 0xFd72170339AC6d7bdda09D1eACA346B21a30D422 |
 | Drops                       | 0x45EB1A004373b1D8457134A2C04a42d69D287724 |
 |                             | 0x1a661CF8D8cd69dD2A423F3626A461A24280a8fB |
-| ClaimZap                    | 0x2E307704EfaE244c4aae6B63B601ee8DA69E92A9 |
+| ClaimZap                    | 0x3eB33F9a2479Af1f98297834861fb4e053A0215f |
 | FeeCollector                | 0xCEeCeA8035e81C1148210DB3b2f870F470CC81bf |
 | RewardDepositWrapper        | 0xB188b1CB84Fb0bA13cb9ee1292769F903A9feC59 |
 | ClaimFeesHelper             | 0xAf824c80aA77Ae7F379DA3Dc05fea0dC1941c200 |
