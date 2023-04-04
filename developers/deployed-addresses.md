@@ -57,7 +57,7 @@ description: Deployed Aura contracts
 | auraBalVault Strategy       | 0xca6481967E9Ed5FAEDbC5dfFA1Dd8368979A2160 |
 | auraBalVault BBUSDHandler   | 0xFa6B857cC17740A946c9eb85C1a6896f2e0Be98E |
 | auraBalVault VirtualRewards | 0x6aA103F8a0CE31aEF4E02c28B9dA83951F1c3e37 |
-|                             |                                            |
+| feeScheduler                | 0x1a65276A9B6A0611506763839B1fFAe3E86718b4 |
 {% endtab %}
 
 {% tab title="Kovan" %}
