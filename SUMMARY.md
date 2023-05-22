@@ -34,6 +34,7 @@
   * [Aura Subgraphs](developers/how-to-\_\_\_/aura-subgraphs.md)
   * [Calculate projected APRs](developers/how-to-\_\_\_/calculate-projected-aprs.md)
   * [Get Balancer LP price](developers/how-to-\_\_\_/get-balancer-lp-price.md)
+* [Frequently Asked Questions](developers/frequently-asked-questions.md)
 
 ## 🔗 Links
 
