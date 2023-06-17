@@ -19,7 +19,7 @@ Aura has prepared for full on chain governance through the implementation of vot
 
 #### Phase 1 - Snapshot & multisigs
 
-****[Snapshot](https://snapshot.org/) page will be used for all aspects (1-4) listed above. To participate in snapshot voting, community members must lock their AURA and delegate it.  Self delegation is permitted.   Results of the snapshot proposals will be executed by one of two multisigs. These entities and individual signers will be required to execute transactions in accordance with snapshot vote outcomes.
+[Snapshot](https://snapshot.org/) page will be used for all aspects (1-4) listed above. To participate in snapshot voting, community members must lock their AURA and delegate it.  Self delegation is permitted.   Results of the snapshot proposals will be executed by one of two multisigs. These entities and individual signers will be required to execute transactions in accordance with snapshot vote outcomes.
 
 **Protocol Multisig -** Internal proposals, Gauge votes
 
