@@ -22,9 +22,12 @@
 
 ## 🛠 DEVELOPERS
 
-* [Deployed addresses](developers/deployed-addresses.md)
+* [Deployed addresses](developers/deployed-addresses/README.md)
+  * [Canonical deployment addresses](developers/deployed-addresses/canonical-deployment-addresses.md)
+  * [Sidechain deployment addresses](developers/deployed-addresses/sidechain-deployment-addresses.md)
 * [Solidity API](developers/solidity-api/README.md)
   * [AuraBalVault  - Compounder](developers/solidity-api/aurabalvault-compounder.md)
+  * [Sidechain Contracts](developers/solidity-api/sidechain-contracts.md)
 * [Building on Aura](developers/building-on-aura.md)
 * [Brand Guidelines](developers/logo.md)
 * [How To \_\_\_](developers/how-to-\_\_\_/README.md)

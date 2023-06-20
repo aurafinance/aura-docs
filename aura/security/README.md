@@ -20,6 +20,26 @@ A 6 week audit has been performed by Halborn Security ([https://twitter.com/Halb
 
 {% file src="../../.gitbook/assets/Halborn-Audit-Report-AuraFinance-v1.0.pdf" %}
 
+#### Audit 5 - Halborn (6th March - 20th March 2023)
+
+
+
+{% file src="../../.gitbook/assets/halborn_aurabal_vault_audit_report.pdf" %}
+
+#### Audit 7 - Halborn (09th May - 06th June 2023)
+
+A 4 week audit has been performed by Halborn Security to audit Sidechain contracts and  Convex Platform lite version contracts
+
+&#x20;([https://twitter.com/HalbornSecurity](https://twitter.com/HalbornSecurity)).
+
+{% file src="../../.gitbook/assets/halborn_sidechain_audit_report.pdf" %}
+
+#### Audit 8 - Zellic (09th May - 06th June 2023)
+
+A 1 week audit has been performed by Halborn Security to audit Sidechain contracts and  Convex Platform lite version contracts
+
+&#x20;([https://twitter.com/zellic\_io](https://twitter.com/zellic\_io)).
+
 ### Bug bounties
 
 External bug bounties are essential for projects. Aura has placed a $1m critical bug bounty payout on Immunefi.
