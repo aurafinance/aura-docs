@@ -20,13 +20,13 @@ A 6 week audit has been performed by Halborn Security ([https://twitter.com/Halb
 
 {% file src="../../.gitbook/assets/Halborn-Audit-Report-AuraFinance-v1.0.pdf" %}
 
-#### Audit 5 - Halborn (6th March - 20th March 2023)
+#### Audit 4 - Halborn (6th March - 20th March 2023)
 
-
+A 2 week audit has been performed by Halborn Security to audit AuraBal Compounder contracts ([https://twitter.com/HalbornSecurity](https://twitter.com/HalbornSecurity)).
 
 {% file src="../../.gitbook/assets/halborn_aurabal_vault_audit_report.pdf" %}
 
-#### Audit 7 - Halborn (09th May - 06th June 2023)
+#### Audit 5 - Halborn (09th May - 06th June 2023)
 
 A 4 week audit has been performed by Halborn Security to audit Sidechain contracts and  Convex Platform lite version contracts
 
@@ -34,11 +34,13 @@ A 4 week audit has been performed by Halborn Security to audit Sidechain contrac
 
 {% file src="../../.gitbook/assets/halborn_sidechain_audit_report.pdf" %}
 
-#### Audit 8 - Zellic (09th May - 06th June 2023)
+#### Audit 6 - Zellic (38th May - 06th June 2023)
 
-A 1 week audit has been performed by Halborn Security to audit Sidechain contracts and  Convex Platform lite version contracts
+A 8 days audit has been performed by Zellic Inc to audit Sidechain contracts and  Convex Platform lite version contracts
 
 &#x20;([https://twitter.com/zellic\_io](https://twitter.com/zellic\_io)).
+
+{% file src="../../.gitbook/assets/zellic_sidechain_audit_report.pdf" %}
 
 ### Bug bounties
 
