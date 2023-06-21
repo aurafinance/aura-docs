@@ -34,7 +34,7 @@ A 4 week audit has been performed by Halborn Security to audit Sidechain contrac
 
 {% file src="../../.gitbook/assets/halborn_sidechain_audit_report.pdf" %}
 
-#### Audit 6 - Zellic (38th May - 06th June 2023)
+#### Audit 6 - Zellic (28th May - 06th June 2023)
 
 A 8 days audit has been performed by Zellic Inc to audit Sidechain contracts and  Convex Platform lite version contracts
 

@@ -94,6 +94,12 @@ In a high gas scenario, APRs might decrease if the pool emissions are too low fo
 
 
 
+**Q: How can I harvest rewards for the liquidity I provided in a pool?** A: in the page of the pool, click on “info” and select “Harvest gauge rewards”.
+
+<img src="../.gitbook/assets/harvestaura.png" alt="" data-size="original">
+
+
+
 **Q: Does 1 vlAURA = 1 veBAL?**
 
 A: It is possible that this is the case, though likely not. It is a function of locked vlAURA vs. the veBAL owned by Aura. These dashboards can provide more detailed information:
@@ -146,7 +152,17 @@ To boost this value, they must also hold veBAL. The amount of veBAL held will de
 
 The math behind how much the veBAL held will boost the base rewards is shown here:
 
-`function getBoost() { const adjustedGaugeBalance = 0.4 * gaugeBalance + ((0.6 * vebalBalance) / vebalTotalSupply) * gaugeTotalSupply; const workingBalance = gaugeBalance < adjustedGaugeBalance ? gaugeBalance : adjustedGaugeBalance; const zeroBoostWorkingBalance = 0.4 * gaugeBalance; const zeroBoostWorkingSupply = gaugeWorkingSupply - workingBalance + zeroBoostWorkingBalance; const boostedFraction = workingBalance / gaugeWorkingSupply; const unboostedFraction = zeroBoostWorkingBalance / zeroBoostWorkingSupply; return boostedFraction / unboostedFraction; }`
+```jsx
+function getBoost() {
+    const adjustedGaugeBalance = 0.4 * gaugeBalance + ((0.6 * vebalBalance) / vebalTotalSupply) * gaugeTotalSupply;
+    const workingBalance = gaugeBalance < adjustedGaugeBalance ? gaugeBalance : adjustedGaugeBalance;
+    const zeroBoostWorkingBalance = 0.4 * gaugeBalance;
+    const zeroBoostWorkingSupply = gaugeWorkingSupply - workingBalance + zeroBoostWorkingBalance;
+    const boostedFraction = workingBalance / gaugeWorkingSupply;
+    const unboostedFraction = zeroBoostWorkingBalance / zeroBoostWorkingSupply;
+    return boostedFraction / unboostedFraction;
+}
+```
 
 For more information, please refer to this page: \*\*\*\* [https://docs.balancer.fi/reference/vebal-and-gauges/boost-calculations.html](https://docs.balancer.fi/reference/vebal-and-gauges/boost-calculations.html)
 
@@ -302,6 +318,34 @@ The rewards for AuraBAL are in AURA, BAL, and bb-a-usd, which accrues to extraRe
 **Q: Where can I get all of the reward tokens for a specific BPT staked in Aura?**
 
 A: Use “Rewards contract address” to show BAL rewards, use “extraRewards” on the rewards contract to show any extra rewards, and use “mint( ) “on the AURA contract for the logic of how much AURA is minted per BAL.
+
+
+
+## Arbitrum related questions
+
+
+
+**Q: What does it mean for Aura to expand on Arbitrum?** A: Arbitrum is one of the most used L2s on the Ethereum network. Aura expanding on Arbitrum means we can further support optimised liquidity on Balancer pools deployed on this network, and let users accumulate incentives for this chain while having some perks like saving some gas.
+
+
+
+**Q: Can I lock Aura token on Arbitrum?** A: Yes! In the same way you would do it on mainnet, through the interface of the aura.finance website.
+
+
+
+**Q: Can I delegate my vlAura to Hidden Hand and receive incentives from there?**
+
+A: As soon as next week, you will be able to delegate your vlAura to Hidden Hand on Arbitrum, and harvest rewards directly in that chain.
+
+
+
+**Q: If I lock Aura on Arbitrum, can I still participate in the voting on Snapshot for governance proposals?** A: Yes! The snapshot website only requires a signature from the user’s wallet to express the preference on proposals, and it doesn’t matter in which of the supported chains the Aura tokens are locked.
+
+
+
+**Q: Can I mint, stake and unstake AuraBal on Arbitrum?**
+
+A: Yes! Just go to the page [https://app.aura.finance/#/aurabal](https://app.aura.finance/#/aurabal) while connected to the Arbitrum network.
 
 
 
