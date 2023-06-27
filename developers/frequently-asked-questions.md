@@ -329,17 +329,22 @@ A: Use “Rewards contract address” to show BAL rewards, use “extraRewards�
 
 
 
-**Q: Can I lock Aura token on Arbitrum?** A: Yes! In the same way you would do it on mainnet, through the interface of the aura.finance website.
+**Q: Can I lock Aura token on Arbitrum?**
+
+A: If you have Aura on the Arbitrum network, you need to bridge it to main net and then lock it there. There is also the possibility to contextually bridge and lock, by using the official tool available [here](https://app.aura.finance/#/42161/bridge).
+
+![](<../.gitbook/assets/bridge aura.png>)
 
 
 
 **Q: Can I delegate my vlAura to Hidden Hand and receive incentives from there?**
 
-A: As soon as next week, you will be able to delegate your vlAura to Hidden Hand on Arbitrum, and harvest rewards directly in that chain.
+A: As soon as early July, you will be able to delegate your vlAura to Hidden Hand on Arbitrum, and harvest rewards directly in that chain.
 
 
 
-**Q: If I lock Aura on Arbitrum, can I still participate in the voting on Snapshot for governance proposals?** A: Yes! The snapshot website only requires a signature from the user’s wallet to express the preference on proposals, and it doesn’t matter in which of the supported chains the Aura tokens are locked.
+**Q: Can I still participate in the voting on Snapshot for governance proposals?**\
+A: Yes! The snapshot website only requires a signature from the user’s wallet to express the preference on proposals.
 
 
 
