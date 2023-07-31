@@ -2,6 +2,14 @@
 
 Smart contract security is a top priority for those working on Aura Finance. All reasonable precautions must be taken to ensure the protocol is safe to use. Below is a list of some of the things we believe make smart contract systems secure.
 
+
+
+## Chainalysis's Proactive Incident Response
+
+Aura has partnered up with [@chainalysis](https://twitter.com/chainalysis) to adopt an[ Incident Response Plan ](https://vote.aura.finance/#/proposal/0x2fbb1422b9efea30fc91b714645ef9591a8291c896e5f0e70efdf43d9a322f05)for the protocol. The IRP adds an extra layer of security on top of well developed code and audits, Aura will be able to deter hackers and have an asset recovery plan in potential events.
+
+
+
 ### Audits
 
 #### Audit 1 - Peckshield (4-18th Apr 2022)
