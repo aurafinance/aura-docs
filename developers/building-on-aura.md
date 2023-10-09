@@ -26,8 +26,13 @@ Find the reference implementation here:
 
 {% embed url="https://github.com/aurafinance/convex-platform/blob/lite/contracts/contracts/BaseRewardPool4626.sol" %}
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Note: `auraBAL` and `vlAURA` reward contracts are not on the 4626 standard&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+Note: StashToken contracts are not ERC20 compliant.\
+`convex-platform/contracts/contracts/StashToken.sol`
 {% endhint %}
 
 {% hint style="info" %}
