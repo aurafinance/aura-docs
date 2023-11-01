@@ -31,8 +31,8 @@ Note: `auraBAL` and `vlAURA` reward contracts are not on the 4626 standard&#x20;
 {% endhint %}
 
 {% hint style="warning" %}
-Note: Extra Rewards added to pools are not ERC20 compliant. All rewards are added as StashTokens, which have a baseToken underneath.\
-`convex-platform/contracts/contracts/StashToken.sol`
+Note: **StashToken** contracts are not ERC20 compliant. \
+_`convex-platform/contracts/contracts/StashToken.sol`_ is designed to interact only with **VirtualBalanceRewardPool** and **ExtraRewardStashV3**. Any`extraRewards` is distributed by a VirtualBalanceRewardPool, which is linked to a StashToken, the StashToken wraps the `extraReward` as a `baseToken`.
 {% endhint %}
 
 {% hint style="info" %}
