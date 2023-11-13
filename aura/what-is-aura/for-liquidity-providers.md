@@ -2,11 +2,11 @@
 description: Deposit BPTs
 ---
 
-# For Liquidity providers
+# For Liquidity Providers
 
 ### What are BPTs
 
-Balancer Pool Tokens (or BPTs) are received from [https://app.balancer.fi/#/](https://app.balancer.fi/#/) for depositing assets into a liquidity pool. Read more on [their docs](https://docs.balancer.fi/products/balancer-pools).
+Balancer Pool Tokens (or BPTs) are received from [https://app.balancer.fi/#/](https://app.balancer.fi/#/) for depositing assets into a liquidity pool. Read more on [their docs](https://docs.balancer.fi/concepts/pools/).
 
 ### Balancer Gauges
 
@@ -16,6 +16,6 @@ These BPTs can be staked in Balancer Gauges to earn `BAL` rewards. Depositors ar
 
 Aura gives users the ability to continue receiving their trading fees but at higher APY due to Aura's protocol owned `veBAL`. Simultaneously Aura LPs will benefit from protocol native (`AURA`) tokens in the form of rewards.
 
-Aura provides users the ability to maximise yield on their `BPT` whilst offering exposure to the governance token of a protocol with the economic weight of substantial `veBAL`.
+Aura provides users the ability to maximize yield on their `BPT` whilst offering exposure to the governance token of a protocol with the economic weight of substantial `veBAL`.
 
 AURA governance tokens, which are used to direct the voting power of the veBAL in AURAbal are minted alongside BAL earned and paid to LPs and other ecosystem users thereby creating additional incentives.
