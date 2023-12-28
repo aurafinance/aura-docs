@@ -14,7 +14,7 @@ This BPT is then locked up by the Aura protocol for the maximum time in Voting E
 
 #### auraBAL Staking
 
-* `auraBAL` can be staked into the platform to receive normal Balancer admin fees one would get for usually holding their `veBAL` in both `BAL` and `bb-a-USD`;
+* `auraBAL` can be staked into the platform to receive normal Balancer admin fees one would get for usually holding their `veBAL` in both `BAL` and `USDC`;
 * Users staking `auraBAL` will also earn `BAL` from Aura's performance fee and the platform's native token, `AURA`.
 
 #### auraBAL Liquidity Pools
