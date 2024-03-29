@@ -12,8 +12,7 @@
     * `extraRewards(N)` is the contract address for additional rewards (outside of AURA, BAL, ie. LDO, bb-a-USD)
     *   AURA is minted pro-rata to BAL accrued.
 
-        * The formula for determining how much AURA is emitted per BAL can be found here:[https://etherscan.io/token/0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF#code#F1#L85](https://etherscan.io/token/0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF#code#F1#L85)
-        * A chart can be found here:[https://docs.google.com/spreadsheets/d/16VSvgp-ejkra03ykyh-2nlxeCMEDvBZ-LFjuaQo6Ym8/](https://docs.google.com/spreadsheets/d/16VSvgp-ejkra03ykyh-2nlxeCMEDvBZ-LFjuaQo6Ym8/)
+        * The formula for determining how much AURA is emitted per BAL can be found here: [https://etherscan.io/token/0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF#code#F1#L85](https://etherscan.io/token/0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF#code#F1#L85)
         * A typescript implementation can be found here:
 
 
@@ -60,13 +59,6 @@
         };
         ```
 
-
-
-{% hint style="danger" %}
-#### Don't use onchain queries
-
-After **AuraMinter.inflationProtectionTime()** has passed, this calculation might not be valid
-{% endhint %}
 
 * A solidity library implementation can be found here (AuraMining): [https://etherscan.io/address/0x744Be650cea753de1e69BF6BAd3c98490A855f52](https://etherscan.io/address/0x744Be650cea753de1e69BF6BAd3c98490A855f52)
 
