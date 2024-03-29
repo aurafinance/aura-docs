@@ -20,7 +20,7 @@
     * [Allocation Scaling Process](aura/usdaura/distribution/allocation-scaling-process.md)
   * [Vote Locking](aura/usdaura/vote-locking.md)
 
-## 🛠 DEVELOPERS
+## 🛠️ DEVELOPERS
 
 * [Deployed Addresses](developers/deployed-addresses/README.md)
   * [Canonical Deployment Addresses](developers/deployed-addresses/canonical-deployment-addresses.md)
