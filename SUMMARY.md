@@ -22,6 +22,7 @@
 
 ## 🛠️ DEVELOPERS
 
+* [Aura Subgraphs](developers/aura-subgraphs.md)
 * [Deployed Addresses](developers/deployed-addresses/README.md)
   * [Canonical Deployment Addresses](developers/deployed-addresses/canonical-deployment-addresses.md)
   * [Sidechain Deployment Addresses](developers/deployed-addresses/sidechain-deployment-addresses.md)
@@ -34,7 +35,6 @@
   * [See reward tokens / yield on Aura Pools](developers/how-to-\_\_\_/see-reward-tokens-yield-on-aura-pools.md)
   * [Calculate APRs from Aura pool yield](developers/how-to-\_\_\_/calculate-aprs-from-aura-pool-yield.md)
   * [Calculate pool boost](developers/how-to-\_\_\_/calculate-pool-boost.md)
-  * [Aura Subgraphs](developers/how-to-\_\_\_/aura-subgraphs.md)
   * [Calculate projected APRs](developers/how-to-\_\_\_/calculate-projected-aprs.md)
   * [Get Balancer LP price](developers/how-to-\_\_\_/get-balancer-lp-price.md)
   * [Add extra incentives to Aura pools](developers/how-to-\_\_\_/add-extra-incentives-to-aura-pools.md)
