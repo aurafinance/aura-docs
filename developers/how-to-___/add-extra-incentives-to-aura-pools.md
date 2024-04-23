@@ -49,4 +49,4 @@ Currently this token list is limited, however this will change soon (TM) and it 
 
 To add new rewards, you need to add a value of over 5000 USD, rewards that have been previously added have a minimum of 1000 USD.
 
-Rewards have to be manually configured for pools, so they may not appear instantly.&#x20;
+Rewards have to be manually configured for pools, so they may not appear instantly. They will begin to be distributed on the following Thursday, provided the minimum amounts have been reached.
