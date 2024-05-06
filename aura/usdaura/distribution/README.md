@@ -40,5 +40,4 @@ In the above distribution, it notes that 50% of AURA supply will be distributed 
 
 The following function is used to calculate the amount of Aura units minted per BAL. On day 1, there will be 3.9 AURA emitted per BAL. This trends towards 1.4 AURA per BAL as supply increases.
 
-`auraUnitsMinted = (((500 - (totalSupply() - 50000000) / 100000) * 2.5 + 700) / 500) * balEarned`
-
+`auraUnitsMinted = (((500 - (AURA TOTAL SUPPLY - 50000000) / 100000) * 2.5 + 700) / 500) *0.4`
