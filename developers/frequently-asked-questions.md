@@ -92,6 +92,10 @@ A: APRs take \~7 days to ramp up once emissions start coming in (smart contract 
 
 In a high gas scenario, APRs might decrease if the pool emissions are too low for third-party harvesters to trigger reward earmarking. In this scenario, rewards are still being accrued, just a little delayed.
 
+To harvest gauge rewards go to [https://app.aura.finance/](https://app.aura.finance/) then click the selected pool, and go to “info”.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
+
 
 
 **Q: How can I harvest rewards for the liquidity I provided in a pool?** A: in the page of the pool, click on “info” and select “Harvest gauge rewards”.
@@ -116,9 +120,9 @@ A: It is possible that this is the case, though likely not. It is a function of 
 
 **Q: Where do I check emissions / $1 spent on Aura gauge incentives?**
 
-A: The value of emissions per $1 spent on voting incentives is tied to the reference voting incentive markets. For Hidden Hand, this value can be found here: [https://llama.airforce/#/bribes/overview/hh/aura-bal](https://llama.airforce/#/bribes/overview/hh/aura-bal)
+A: The value of emissions per $1 spent on voting incentives is tied to the reference voting incentive markets. For Hidden Hand, this value can be found here:&#x20;
 
-
+[https://aura.defilytica.com/#/voting-incentives](https://aura.defilytica.com/#/voting-incentives)
 
 **Q: Why has voting incentive efficiency increased/decreased?**
 
@@ -179,6 +183,12 @@ A: This happened because the veBAL% voting for this pool decreased (or was not h
 
 
 
+**Q: Is there a minimum votes threshold to acquire?**
+
+A: In order for a gauge to receive Aura emissions the minimum votes threshold to cast on this single gauge is 0.1% of vlAura voting supply.
+
+
+
 **Q: I just participated in the last round and allocated voting incentives for my pool. Why hasn’t the pool started receiving rewards?**
 
 A: If the pool is on layer 2 (such as Arbitrum, Optimism, etc), the BAL incentives have a one-week delay due to the bridge process. If the pool is on Ethereum, most likely, there is yet a harvest of the Aura staking pool.
@@ -199,7 +209,7 @@ A: Unless your pool’s parameters and paired assets fit with the criteria of co
 
 **Q: When is Aura launching on Arbitrum/Optimism/Polygon etc…**
 
-A: Aura is launching on Arbitrum very soon (mid to late June). Optimism and other L2 deployments will follow.
+A: With @Balancer cross-chain boosts and Aura Omnichain Fungible Tokens (OFTs) enabled by @LayerZero\_Labs’ communication primitive, Aura has been able to expand to a total of 4 networks, including @Ethereum, @Arbitrum, @OptimismFND and @0xPolygonLabs.
 
 
 
@@ -216,9 +226,10 @@ A: For each one vlAura vote, there are two layers of emissions (BAL & AURA) dire
 * **x** = Amount of veBAL controlled by 1 vlAura = Total AuraBAL supply / Total vlAura supply
 * **y** = Amount of BAL emission controlled by 1 veBAL = BAL weekly emission / Total veBAL supply
 * **p** = Amount of BAL emissions controlled by 1 vlAura = x \* y
-* **a** = Amount of newly emitted Aura controlled by 1 vlAura = (((500 - (totalAuraSupply() - 50000000) / 100000) \* 2.5 + 700) / 500) \* balEarned ) / Total vlAura supply
+* **a** = Amount of newly emitted Aura controlled by 1 vlAura = ((((500 - (totalAuraSupply() - 50000000) / 100000) \* 2.5 + 700) / 500) \* balEarned ) / Total vlAura supply)\*0.4
 * The **balEarned** value can be derived from this dune query: [https://dune.com/queries/1242557/2130333](https://dune.com/queries/1242557/2130333)
-* The total value of emissions controlled by 1 vlAura is = **p \* BAL price + a \* AURA price**
+* t = emissions from Aura Treasury (post AIP-42) = 180000 / vlAura voting supply
+* The total value of emissions controlled by 1 vlAura is = p \* BAL price + a \* AURA price + t \* AURA price
 
 
 
@@ -237,19 +248,24 @@ The dollar emission per single vlAura vote is tied to the amount of veBAL contro
 
 * first, obtain how many AuraBAL are controlled per single vlAura
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+### &#x20;           `total auraBAL Supply/Total vlAURA Supply`
 
-*   then, obtain the amount of BAL emissions controlled per vlAura
+* then, obtain the amount of BAL emissions controlled per vlAura
 
+### &#x20;            `($BALemission/veBAL)*(auraBAL/vlAura)`
 
+* then, calculate how much Aura will be emitted every week
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
-*   then, calculate how much Aura will be emitted every week
+### `auraUnitsMinted=(((500-(totalSupply() - 50000000) /     (100000)*2.5+700)/500) * balEarned * 0.4`
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-*   to get the $ value of Aura emissions per vlAura, calculate
+* to get the $ value of Aura emissions per vlAura, calculate
 
-    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+### **`aura$emission per vlAura = auraUnitsMinted * $Aura price/Total vlAura`**
+
+* Post AIP-42 value of AURA emissions from Treasury per vlAura is
+
+### &#x20;                             `180000/Total vlAura`
+
 * lastly, sum the Aura $ emission value per vlAura to the Bal $ emission value per vlAura to reach the total value of incentives controlled per vlAura
 
 The value of $ emission per vlAura can also be derived through [this second dune query.](https://dune.com/queries/2618692/4346084)
@@ -321,6 +337,68 @@ A: Use “Rewards contract address” to show BAL rewards, use “extraRewards�
 
 
 
+## Additional Partner / Integration Questions
+
+**Q: Do I have to keep providing incentives to my gauge?**
+
+A: Yes.
+
+
+
+**Q: What interval do I need to provide incentives to my gauge?**
+
+A: Every two weeks according to the vlAURA voting schedule.
+
+
+
+**Q: What is the minimum suggested incentive amount that I should provide?**
+
+A: There is no minimum. Protocols may provide incentives according to the market share of rewards they wish to capture.
+
+
+
+**Q: How do I get my token’s LP listed on Aura’s frontend?**
+
+A: When a gauge is approved on Balancer, Aura will add the corresponding pools to the frontend.
+
+
+
+**Q: Do I need to provide and or vote for gauges on each chain where my protocol’s token is to make sure there are rewards?**
+
+A: Yes
+
+
+
+**Q: What sort of utility and composability comes with having an LP on Balancer and Aura?**
+
+A: There are many different types of LPs that could be built on top of Balancer! Pools with up to 12 different assets, Weighted pools with different factors (like 80:20 Pools) Metastable pools and many more, The receipt tokens of those pools may be staked on Aura for extra rewards.
+
+
+
+**Q: What protocols are building on Aura?**
+
+A: There are many different protocols building on Aura. The largest ones being Stargate, Raft, RocketPool, Lido, Olympus DAO and many more.
+
+
+
+**Q: Where can I provide voting incentives?**
+
+A: Several meta-governance markets are available for Aura, including Hidden Hand, Paladin (Warden Quest).
+
+
+
+**Q: How do I approve my token to be provided as an incentive to the meta-governance markets?**
+
+A: This depends on the specific meta-governance market
+
+
+
+**Q: If I want to change the LP that has an approved gauge do I need to apply for a new gauge?**
+
+A: Yes, one needs to make a governance proposal to request gauge migration.
+
+
+
 ## Arbitrum related questions
 
 
@@ -334,6 +412,12 @@ A: Use “Rewards contract address” to show BAL rewards, use “extraRewards�
 A: If you have Aura on the Arbitrum network, you need to bridge it to main net and then lock it there. There is also the possibility to contextually bridge and lock, by using the official tool available [here](https://app.aura.finance/#/42161/bridge).
 
 ![](<../.gitbook/assets/bridge aura.png>)
+
+
+
+**Q: I “bridge & locked” my AURA. After those AURA are unlocked, will they get sent back to Arbitrum?**
+
+A: No. The tokens will stay on Ethereum mainnet.
 
 
 
@@ -368,8 +452,3 @@ A: Aura has a general 1-month document retention policy that includes Discord se
 
 A: Aura has no team: it is a protocol that is run by contributors and community members that, through governance voting, decide its future and development.
 
-
-
-**Q: Who are the Aura Maxis?**
-
-A: The Aura Maxis are members of a “Service Provider” (SP) to the Aura Protocol initiated by [AIP-28](https://forum.aura.finance/t/aip-28-establishing-the-aura-maxis/472). Anyone can apply for to become an Aura Maxi [here](https://forum.aura.finance/t/aura-maxi-applications/426). After evaluating the proponent's skills, the current gap of the SP, and the goals pursued, the current Aura Maxi members will vote for eventual admission.
