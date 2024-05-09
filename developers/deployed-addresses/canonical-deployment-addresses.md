@@ -18,6 +18,7 @@
 | BridgeDelegateReceiver (Gnosis)        | [0xac962acd42f93c6f26e1cf83271d2a53b208daa6](https://etherscan.io/address/0xac962acd42f93c6f26e1cf83271d2a53b208daa6) |
 | BridgeDelegateReceiver (Base)          | [0x7eB87C3a4eabDaD158781d0dbB7Ab3589B9C2B4C](https://etherscan.io/address/0x7eB87C3a4eabDaD158781d0dbB7Ab3589B9C2B4C) |
 | BridgeDelegateReceiver (Polygon ZkEvm) | [0xBcF3B107a5ECDD8Efb70a74f44b827a1F7108c48](https://etherscan.io/address/0xBcF3B107a5ECDD8Efb70a74f44b827a1F7108c48) |
+| BridgeDelegateReceiver (Avalanche)     | [0x80b1116FC9f5334bC8D6502e59DC4c42Ce98aB8D](https://etherscan.io/address/0x80b1116FC9f5334bC8D6502e59DC4c42Ce98aB8D) |
 | Sudo                                   | [0xb370Ebd7ded0c87b4509FF6f13F07B7F1693Bf46](https://etherscan.io/address/0xb370Ebd7ded0c87b4509FF6f13F07B7F1693Bf46) |
 | View                                   | [0x208024E643564fb4C990481eB4F9ec1957f64c11](https://etherscan.io/address/0x208024E643564fb4C990481eB4F9ec1957f64c11) |
 | AuraDistributor                        | [0x96D15D08538A17A03B0210FD1626D5f42bdba9a4](https://etherscan.io/address/0x96D15D08538A17A03B0210FD1626D5f42bdba9a4) |

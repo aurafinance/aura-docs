@@ -90,7 +90,9 @@ A: \~one week if all parameters stay the same: vote weight, pool TVL, and relati
 
 A: APRs take \~7 days to ramp up once emissions start coming in (smart contract reward period); if a pool hasn't had rewards before, the APR will be low for the first 7 days.
 
-In a high gas scenario, APRs might decrease if the pool emissions are too low for third-party harvesters to trigger reward earmarking. In this scenario, rewards are still being accrued, just a little delayed.
+In a high gas scenario, APRs might decrease if the pool emissions are too low for third-party harvesters to trigger reward earmarking. In this scenario, rewards are still being accrued, just a little delayed.  Pools under this scenario display a warning label "Harvest Required".&#x20;
+
+<figure><img src="../.gitbook/assets/Screenshot 2024-05-08 at 16.56.42.png" alt="" width="211"><figcaption></figcaption></figure>
 
 To harvest gauge rewards go to [https://app.aura.finance/](https://app.aura.finance/) then click the selected pool, and go to “info”.
 
@@ -101,6 +103,12 @@ To harvest gauge rewards go to [https://app.aura.finance/](https://app.aura.fina
 **Q: How can I harvest rewards for the liquidity I provided in a pool?** A: in the page of the pool, click on “info” and select “Harvest gauge rewards”.
 
 <img src="../.gitbook/assets/harvestaura.png" alt="" data-size="original">
+
+
+
+**Q: What is a third-party harvester?**
+
+A: Anyone can claim pending rewards from Balancer on behalf of Aura for a given pool,  to do so call the `earmarkRewards(pid)` function on Aura's Booster contract, the Booster pays a percentage `(Booster.earmarkIncentive)` as reward when harvesting BAL, third-party harvesters will call this contract function when the reward returned is greater than the cost of gas to execute the function.
 
 
 
@@ -209,7 +217,7 @@ A: Unless your pool’s parameters and paired assets fit with the criteria of co
 
 **Q: When is Aura launching on Arbitrum/Optimism/Polygon etc…**
 
-A: With @Balancer cross-chain boosts and Aura Omnichain Fungible Tokens (OFTs) enabled by @LayerZero\_Labs’ communication primitive, Aura has been able to expand to a total of 4 networks, including @Ethereum, @Arbitrum, @OptimismFND and @0xPolygonLabs.
+A: With @Balancer cross-chain boosts and Aura Omnichain Fungible Tokens (OFTs) enabled by @LayerZero\_Labs’ communication primitive, Aura has been able to expand to a total of 7 networks, including @Ethereum, @Arbitrum, @OptimismFND, @0xPolygonLabs, @Base, @Gnosischain and @avax.
 
 
 
