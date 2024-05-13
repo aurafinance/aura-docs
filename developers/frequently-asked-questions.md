@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-### **General Questions**
+**General Questions**
 
 
 
@@ -116,7 +116,7 @@ A: Anyone can claim pending rewards from Balancer on behalf of Aura for a given 
 
 A: It is possible that this is the case, though likely not. It is a function of locked vlAURA vs. the veBAL owned by Aura. These dashboards can provide more detailed information:
 
-[https://dune.com/0xahtle7/aura-finance-dashboard](https://dune.com/0xahtle7/aura-finance-dashboard)
+[https://dune.com/aura\_finance/aura-finance-dashboard](https://dune.com/aura\_finance/aura-finance-dashboard)
 
 [https://dune.com/aura\_finance/aura](https://dune.com/aura\_finance/aura)
 
