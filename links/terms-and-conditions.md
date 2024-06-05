@@ -1,9 +1,5 @@
 # Terms and Conditions
 
-{% embed url="https://aura.finance/terms" %}
-T\&C&#x20;
-{% endembed %}
-
 **Aura Finance Terms and Conditions**
 
 Last Modified: 5 June 2024
