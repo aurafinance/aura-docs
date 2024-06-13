@@ -7,7 +7,7 @@ Aura is a decentralized and community-governed protocol. Token holders direct al
 The core things to be governed in the Aura system are as follows:
 
 1. Internal proposals (e.g. setting fee rates)
-2. [Aura treasury](broken-reference)
+2. [Aura treasury](https://aura.defilytica.com/#/treasury)
 3. Balancer Snapshot voting
 4. [Balancer Gauge voting](gauge-voting.md)
 
