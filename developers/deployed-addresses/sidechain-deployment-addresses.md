@@ -97,31 +97,31 @@
 {% tab title="Base" %}
 
 
-| Contract               | Address                                                                                                               |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| vlAura                 | [0x9e1f4190f1a8Fe0cD57421533deCB57F9980922e](https://basescan.org/address/0x9e1f4190f1a8Fe0cD57421533deCB57F9980922e) |
-| AuraOFT                | [0x1509706a6c66CA549ff0cB464de88231DDBe213B](https://basescan.org/address/0x1509706a6c66CA549ff0cB464de88231DDBe213B) |
-| AuraBalOFT             | [0x223738a747383d6F9f827d95964e4d8E8AC754cE](https://basescan.org/address/0x223738a747383d6F9f827d95964e4d8E8AC754cE) |
-| AuraBalVault           | [0x4ea9317d90b61fc28c418c247ad0ca8939bbb0e9](https://basescan.org/address/0x4ea9317d90b61fc28c418c247ad0ca8939bbb0e9) |
-| AuraBalStrategy        | [0x4B5D2848678Db574Fbc2d2f629143d969a4f41Cb](https://basescan.org/address/0x4B5D2848678Db574Fbc2d2f629143d969a4f41Cb) |
-| VirtualRewardsFactory  | [0x05589CbbE1cC0357986DF6de4031B953819079c2](https://basescan.org/address/0x05589CbbE1cC0357986DF6de4031B953819079c2) |
-| BoosterLite            | [0x98Ef32edd24e2c92525E59afc4475C1242a30184](https://basescan.org/address/0x98Ef32edd24e2c92525E59afc4475C1242a30184) |
-| voterProxy             | [0xC181Edc719480bd089b94647c2Dc504e2700a2B0](https://basescan.org/address/0xC181Edc719480bd089b94647c2Dc504e2700a2B0) |
-| keeperMulticall3       | [0x37aA9Ad9744D0686df1C7053225e700ce13e31Dd](https://basescan.org/address/0x37aA9Ad9744D0686df1C7053225e700ce13e31Dd) |
-| boosterOwner           | [0x0f0Ddad80025adf6C5Ca45905237e5ca12B755fc](https://basescan.org/address/0x0f0Ddad80025adf6C5Ca45905237e5ca12B755fc) |
-| poolManager            | [0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71](https://basescan.org/address/0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71) |
-| l2Coordinator          | [0x8b2970c237656d3895588B99a8bFe977D5618201](https://basescan.org/address/0x8b2970c237656d3895588B99a8bFe977D5618201) |
-| rewardFactory          | [0x334Df252CC0C44C37Ba85DbeAa9c230C3f22f6b0](https://basescan.org/address/0x334Df252CC0C44C37Ba85DbeAa9c230C3f22f6b0) |
-| stashFactory           | [0x60D6439631CC6f60ED15c07783B4c7848F87c84c](https://basescan.org/address/0x60D6439631CC6f60ED15c07783B4c7848F87c84c) |
-| tokenFactory           | [0x87299312C820607f1E7E4d0c6715CEB594306FE9](https://basescan.org/address/0x87299312C820607f1E7E4d0c6715CEB594306FE9) |
-| proxyFactory           | [0x731886426a3199b988194831031dfb993F25D961](https://basescan.org/address/0x731886426a3199b988194831031dfb993F25D961) |
-| sidechainView          | [0xE14360AA496A85FCfe4B75AFD2ec4d95CbA38Fe1](https://basescan.org/address/0xE14360AA496A85FCfe4B75AFD2ec4d95CbA38Fe1) |
-| keeperMulticall3       | [0x5C97f09506d60B90a817EB547ea4F03Ae990E798](https://basescan.org/address/0x5C97f09506d60B90a817EB547ea4F03Ae990E798) |
-| ClaimZap               | [0x5a5094e2a2a4c1B48a6630138a3b1076eC00B10d](https://basescan.org/address/0x5a5094e2a2a4c1B48a6630138a3b1076eC00B10d) |
-| ChildStashRewardDistro | [0xcA85e2cE206b48ee28A87b0a06f9519ABE627451](https://basescan.org/address/0xcA85e2cE206b48ee28A87b0a06f9519ABE627451) |
-| ChildGaugeVoteRewards  | [0x2863582272A424234FcE76d97099AcBd432acC01](https://basescan.org/address/0x2863582272A424234FcE76d97099AcBd432acC01) |
-| rewardDepositor        | [0xa9952C914D86f896c53Bf17125c4104Cc058008E](https://basescan.org/address/0xa9952C914D86f896c53Bf17125c4104Cc058008E) |
-| AuraViewHelper         | [0xcE66E8300dC1d1F5b0e46E9145fDf680a7E41146](https://basescan.org/address/0xcE66E8300dC1d1F5b0e46E9145fDf680a7E41146) |
+| Contract                 | Address                                                                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| vlAura                   | [0x9e1f4190f1a8Fe0cD57421533deCB57F9980922e](https://basescan.org/address/0x9e1f4190f1a8Fe0cD57421533deCB57F9980922e) |
+| AuraOFT                  | [0x1509706a6c66CA549ff0cB464de88231DDBe213B](https://basescan.org/address/0x1509706a6c66CA549ff0cB464de88231DDBe213B) |
+| AuraBalOFT               | [0x223738a747383d6F9f827d95964e4d8E8AC754cE](https://basescan.org/address/0x223738a747383d6F9f827d95964e4d8E8AC754cE) |
+| AuraBalVault             | [0x4ea9317d90b61fc28c418c247ad0ca8939bbb0e9](https://basescan.org/address/0x4ea9317d90b61fc28c418c247ad0ca8939bbb0e9) |
+| AuraBalStrategy          | [0x4B5D2848678Db574Fbc2d2f629143d969a4f41Cb](https://basescan.org/address/0x4B5D2848678Db574Fbc2d2f629143d969a4f41Cb) |
+| VirtualRewardsFactory    | [0x05589CbbE1cC0357986DF6de4031B953819079c2](https://basescan.org/address/0x05589CbbE1cC0357986DF6de4031B953819079c2) |
+| BoosterLite              | [0x98Ef32edd24e2c92525E59afc4475C1242a30184](https://basescan.org/address/0x98Ef32edd24e2c92525E59afc4475C1242a30184) |
+| voterProxy               | [0xC181Edc719480bd089b94647c2Dc504e2700a2B0](https://basescan.org/address/0xC181Edc719480bd089b94647c2Dc504e2700a2B0) |
+| keeperMulticall3         | [0x37aA9Ad9744D0686df1C7053225e700ce13e31Dd](https://basescan.org/address/0x37aA9Ad9744D0686df1C7053225e700ce13e31Dd) |
+| boosterOwner             | [0x0f0Ddad80025adf6C5Ca45905237e5ca12B755fc](https://basescan.org/address/0x0f0Ddad80025adf6C5Ca45905237e5ca12B755fc) |
+| poolManager              | [0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71](https://basescan.org/address/0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71) |
+| l2Coordinator            | [0x8b2970c237656d3895588B99a8bFe977D5618201](https://basescan.org/address/0x8b2970c237656d3895588B99a8bFe977D5618201) |
+| rewardFactory            | [0x334Df252CC0C44C37Ba85DbeAa9c230C3f22f6b0](https://basescan.org/address/0x334Df252CC0C44C37Ba85DbeAa9c230C3f22f6b0) |
+| stashFactory             | [0x60D6439631CC6f60ED15c07783B4c7848F87c84c](https://basescan.org/address/0x60D6439631CC6f60ED15c07783B4c7848F87c84c) |
+| tokenFactory             | [0x87299312C820607f1E7E4d0c6715CEB594306FE9](https://basescan.org/address/0x87299312C820607f1E7E4d0c6715CEB594306FE9) |
+| proxyFactory             | [0x731886426a3199b988194831031dfb993F25D961](https://basescan.org/address/0x731886426a3199b988194831031dfb993F25D961) |
+| sidechainView            | [0xE14360AA496A85FCfe4B75AFD2ec4d95CbA38Fe1](https://basescan.org/address/0xE14360AA496A85FCfe4B75AFD2ec4d95CbA38Fe1) |
+| keeperMulticall3         | [0x5C97f09506d60B90a817EB547ea4F03Ae990E798](https://basescan.org/address/0x5C97f09506d60B90a817EB547ea4F03Ae990E798) |
+| ClaimZap                 | [0x5a5094e2a2a4c1B48a6630138a3b1076eC00B10d](https://basescan.org/address/0x5a5094e2a2a4c1B48a6630138a3b1076eC00B10d) |
+| ChildStashRewardDistro   | [0xcA85e2cE206b48ee28A87b0a06f9519ABE627451](https://basescan.org/address/0xcA85e2cE206b48ee28A87b0a06f9519ABE627451) |
+| ChildGaugeVoteRewards    | [0x2863582272A424234FcE76d97099AcBd432acC01](https://basescan.org/address/0x2863582272A424234FcE76d97099AcBd432acC01) |
+| RewardPoolDepositWrapper | [0xa9952C914D86f896c53Bf17125c4104Cc058008E](https://basescan.org/address/0xa9952C914D86f896c53Bf17125c4104Cc058008E) |
+| AuraViewHelper           | [0xcE66E8300dC1d1F5b0e46E9145fDf680a7E41146](https://basescan.org/address/0xcE66E8300dC1d1F5b0e46E9145fDf680a7E41146) |
 {% endtab %}
 
 {% tab title="Polygon ZkEvm" %}
@@ -145,32 +145,58 @@
 | SidechainClaimZap      | [0x4EA38a5739D467F7f84c06155ee2Ad745E5328E8](https://zkevm.polygonscan.com/address/0x4EA38a5739D467F7f84c06155ee2Ad745E5328E8) |
 | ChildStashRewardDistro | [0xcA85e2cE206b48ee28A87b0a06f9519ABE627451](https://zkevm.polygonscan.com/address/0xcA85e2cE206b48ee28A87b0a06f9519ABE627451) |
 | ChildGaugeVoteRewards  | [0x2863582272A424234FcE76d97099AcBd432acC01](https://zkevm.polygonscan.com/address/0x2863582272A424234FcE76d97099AcBd432acC01) |
-| RewardDepositWrapper   | [0xbDDAC3069F4E26F4e4F445926c8Eeb9DCB68c26B](https://zkevm.polygonscan.com/address/0xbDDAC3069F4E26F4e4F445926c8Eeb9DCB68c26B) |
+| RewardPoolDepositWrapper   | [0xbDDAC3069F4E26F4e4F445926c8Eeb9DCB68c26B](https://zkevm.polygonscan.com/address/0xbDDAC3069F4E26F4e4F445926c8Eeb9DCB68c26B) |
 | AuraViewHelper         | [0xea865D0dACf923c8d6254DE734f31294ca74C1dc](https://zkevm.polygonscan.com/address/0xea865D0dACf923c8d6254DE734f31294ca74C1dc) |
 {% endtab %}
 
 {% tab title="Avalanche" %}
 
 
-| Contract               | Address                                                                                                               |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| VoterProxyLite         | [0xC181Edc719480bd089b94647c2Dc504e2700a2B0](https://snowtrace.io/address/0xC181Edc719480bd089b94647c2Dc504e2700a2B0) |
-| AuraOFT                | [0x1509706a6c66CA549ff0cB464de88231DDBe213B](https://snowtrace.io/address/0x1509706a6c66CA549ff0cB464de88231DDBe213B) |
-| L2Coordinator          | [0x8b2970c237656d3895588B99a8bFe977D5618201](https://snowtrace.io/address/0x8b2970c237656d3895588B99a8bFe977D5618201) |
-| BoosterLite            | [0x98Ef32edd24e2c92525E59afc4475C1242a30184](https://snowtrace.io/address/0x98Ef32edd24e2c92525E59afc4475C1242a30184) |
-| KeeperMulticall3       | [0x37aA9Ad9744D0686df1C7053225e700ce13e31Dd](https://snowtrace.io/address/0x37aA9Ad9744D0686df1C7053225e700ce13e31Dd) |
-| RewardFactory          | [0xcc92694A8b2367BC6A0D6c2349C30B7D8F1d3c0E](https://snowtrace.io/address/0xcc92694A8b2367BC6A0D6c2349C30B7D8F1d3c0E) |
-| TokenFactory           | [0x87299312C820607f1E7E4d0c6715CEB594306FE9](https://snowtrace.io/address/0x87299312C820607f1E7E4d0c6715CEB594306FE9) |
-| ProxyFactory           | [0x731886426a3199b988194831031dfb993F25D961](https://snowtrace.io/address/0x731886426a3199b988194831031dfb993F25D961) |
-| StashFactory           | [0x1fd645458F6CD8EB95d161d9A38EaBE5dAB1900b](https://snowtrace.io/address/0x1fd645458F6CD8EB95d161d9A38EaBE5dAB1900b) |
-| ExtraRewardStashV3     | [0x623CdC77DBADE480060C1cF22053514bCf785898](https://snowtrace.io/address/0x623CdC77DBADE480060C1cF22053514bCf785898) |
-| PoolManagerLite        | [0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71](https://snowtrace.io/address/0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71) |
-| BoosterOwnerLite       | [0x8034fbC6246Caa37d2Af084b2fB0ea4a211B6F8d](https://snowtrace.io/address/0x8034fbC6246Caa37d2Af084b2fB0ea4a211B6F8d) |
-| SidechainView          | [0x739B0c838E47A28877cAEF270DF0407FE5C62502](https://snowtrace.io/address/0x739B0c838E47A28877cAEF270DF0407FE5C62502) |
-| SidechainClaimZap      | [0x6907d13cB2af4661a491562187F3BEaBa4C2a017](https://snowtrace.io/address/0x6907d13cB2af4661a491562187F3BEaBa4C2a017) |
-| ChildStashRewardDistro | [0xb82434C7506B27c226564d6eF6AC9dDCb03E8bd3](https://snowtrace.io/address/0xb82434C7506B27c226564d6eF6AC9dDCb03E8bd3) |
-| ChildGaugeVoteRewards  | [0xCbdcd817a93E733d48086C7c068c82c5a123DC4e](https://snowtrace.io/address/0xCbdcd817a93E733d48086C7c068c82c5a123DC4e) |
-| RewardDepositWrapper   | [0xA2930d1e21a26fde6ed861f303205536A98381eD](https://snowtrace.io/address/0xA2930d1e21a26fde6ed861f303205536A98381eD) |
-| AuraViewHelper         | [0x5073Dc4072B23bEB465f012D1be324bC0eBc119D](https://snowtrace.io/address/0x5073Dc4072B23bEB465f012D1be324bC0eBc119D) |
+| Contract                 | Address                                                                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| VoterProxyLite           | [0xC181Edc719480bd089b94647c2Dc504e2700a2B0](https://snowtrace.io/address/0xC181Edc719480bd089b94647c2Dc504e2700a2B0) |
+| AuraOFT                  | [0x1509706a6c66CA549ff0cB464de88231DDBe213B](https://snowtrace.io/address/0x1509706a6c66CA549ff0cB464de88231DDBe213B) |
+| L2Coordinator            | [0x8b2970c237656d3895588B99a8bFe977D5618201](https://snowtrace.io/address/0x8b2970c237656d3895588B99a8bFe977D5618201) |
+| BoosterLite              | [0x98Ef32edd24e2c92525E59afc4475C1242a30184](https://snowtrace.io/address/0x98Ef32edd24e2c92525E59afc4475C1242a30184) |
+| KeeperMulticall3         | [0x37aA9Ad9744D0686df1C7053225e700ce13e31Dd](https://snowtrace.io/address/0x37aA9Ad9744D0686df1C7053225e700ce13e31Dd) |
+| RewardFactory            | [0xcc92694A8b2367BC6A0D6c2349C30B7D8F1d3c0E](https://snowtrace.io/address/0xcc92694A8b2367BC6A0D6c2349C30B7D8F1d3c0E) |
+| TokenFactory             | [0x87299312C820607f1E7E4d0c6715CEB594306FE9](https://snowtrace.io/address/0x87299312C820607f1E7E4d0c6715CEB594306FE9) |
+| ProxyFactory             | [0x731886426a3199b988194831031dfb993F25D961](https://snowtrace.io/address/0x731886426a3199b988194831031dfb993F25D961) |
+| StashFactory             | [0x1fd645458F6CD8EB95d161d9A38EaBE5dAB1900b](https://snowtrace.io/address/0x1fd645458F6CD8EB95d161d9A38EaBE5dAB1900b) |
+| ExtraRewardStashV3       | [0x623CdC77DBADE480060C1cF22053514bCf785898](https://snowtrace.io/address/0x623CdC77DBADE480060C1cF22053514bCf785898) |
+| PoolManagerLite          | [0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71](https://snowtrace.io/address/0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71) |
+| BoosterOwnerLite         | [0x8034fbC6246Caa37d2Af084b2fB0ea4a211B6F8d](https://snowtrace.io/address/0x8034fbC6246Caa37d2Af084b2fB0ea4a211B6F8d) |
+| SidechainView            | [0x739B0c838E47A28877cAEF270DF0407FE5C62502](https://snowtrace.io/address/0x739B0c838E47A28877cAEF270DF0407FE5C62502) |
+| SidechainClaimZap        | [0x6907d13cB2af4661a491562187F3BEaBa4C2a017](https://snowtrace.io/address/0x6907d13cB2af4661a491562187F3BEaBa4C2a017) |
+| ChildStashRewardDistro   | [0xb82434C7506B27c226564d6eF6AC9dDCb03E8bd3](https://snowtrace.io/address/0xb82434C7506B27c226564d6eF6AC9dDCb03E8bd3) |
+| ChildGaugeVoteRewards    | [0xCbdcd817a93E733d48086C7c068c82c5a123DC4e](https://snowtrace.io/address/0xCbdcd817a93E733d48086C7c068c82c5a123DC4e) |
+| RewardPoolDepositWrapper | [0xA2930d1e21a26fde6ed861f303205536A98381eD](https://snowtrace.io/address/0xA2930d1e21a26fde6ed861f303205536A98381eD) |
+| AuraViewHelper           | [0x5073Dc4072B23bEB465f012D1be324bC0eBc119D](https://snowtrace.io/address/0x5073Dc4072B23bEB465f012D1be324bC0eBc119D) |
 {% endtab %}
+
+{% tab title="Fraxtal" %}
+
+
+| Contract                 | Address                                                                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| VoterProxyLite           | [0xC181Edc719480bd089b94647c2Dc504e2700a2B0](https://fraxscan.com/address/0xC181Edc719480bd089b94647c2Dc504e2700a2B0) |
+| AuraOFT                  | [0x1509706a6c66CA549ff0cB464de88231DDBe213B](https://fraxscan.com/address/0x1509706a6c66CA549ff0cB464de88231DDBe213B) |
+| L2Coordinator            | [0x8b2970c237656d3895588B99a8bFe977D5618201](https://fraxscan.com/address/0x8b2970c237656d3895588B99a8bFe977D5618201) |
+| BoosterLite              | [0x98Ef32edd24e2c92525E59afc4475C1242a30184](https://fraxscan.com/address/0x98Ef32edd24e2c92525E59afc4475C1242a30184) |
+| KeeperMulticall3         | [0x5a739082832Ff535413ceBFb2468b8d6B9F22C68](https://fraxscan.com/address/0x5a739082832Ff535413ceBFb2468b8d6B9F22C68) |
+| RewardFactory            | [0xc24Fa5948a2A356b6A7E20D08E7A5EdC3697B7AC](https://fraxscan.com/address/0xc24Fa5948a2A356b6A7E20D08E7A5EdC3697B7AC) |
+| TokenFactory             | [0x87299312C820607f1E7E4d0c6715CEB594306FE9](https://fraxscan.com/address/0x87299312C820607f1E7E4d0c6715CEB594306FE9) |
+| ProxyFactory             | [0x731886426a3199b988194831031dfb993F25D961](https://fraxscan.com/address/0x731886426a3199b988194831031dfb993F25D961) |
+| StashFactory             | [0x919EEb7D8e73bD4E9addc1E81Fd1Ae799f0eFeE6](https://fraxscan.com/address/0x919EEb7D8e73bD4E9addc1E81Fd1Ae799f0eFeE6) |
+| ExtraRewardStashV3       | [0x7A7b39D47A64181750b7b45B88682DdB915A73D1](https://fraxscan.com/address/0x7A7b39D47A64181750b7b45B88682DdB915A73D1) |
+| PoolManagerLite          | [0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71](https://fraxscan.com/address/0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71) |
+| BoosterOwnerLite         | [0x04798C9B4546d90A97F687188d346D170298703c](https://fraxscan.com/address/0x04798C9B4546d90A97F687188d346D170298703c) |
+| SidechainView            | [0xA07d668CcF6c49B4A921eAd33eB075AFF843d6Ff](https://fraxscan.com/address/0xA07d668CcF6c49B4A921eAd33eB075AFF843d6Ff) |
+| SidechainClaimZap        | [0x4EA38a5739D467F7f84c06155ee2Ad745E5328E8](https://fraxscan.com/address/0x4EA38a5739D467F7f84c06155ee2Ad745E5328E8) |
+| ChildStashRewardDistro   | [0xb82434C7506B27c226564d6eF6AC9dDCb03E8bd3](https://fraxscan.com/address/0xb82434C7506B27c226564d6eF6AC9dDCb03E8bd3) |
+| ChildGaugeVoteRewards    | [0xCbdcd817a93E733d48086C7c068c82c5a123DC4e](https://fraxscan.com/address/0xCbdcd817a93E733d48086C7c068c82c5a123DC4e) |
+| RewardPoolDepositWrapper | [0x5849B5821fAf6DE7b3739f7A6D73536D9aE09558](https://fraxscan.com/address/0x5849B5821fAf6DE7b3739f7A6D73536D9aE09558) |
+| AuraViewHelper           | [0xBD2e14D04777e551a8fe3822cac0Df51984b029E](https://fraxscan.com/address/0xBD2e14D04777e551a8fe3822cac0Df51984b029E) |
+{% endtab %}
+
 {% endtabs %}
