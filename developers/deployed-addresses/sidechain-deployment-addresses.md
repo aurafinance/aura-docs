@@ -191,7 +191,7 @@
 | ExtraRewardStashV3       | [0x7A7b39D47A64181750b7b45B88682DdB915A73D1](https://fraxscan.com/address/0x7A7b39D47A64181750b7b45B88682DdB915A73D1) |
 | PoolManagerLite          | [0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71](https://fraxscan.com/address/0xf24074a1A6ad620aDC14745F9cc1fB1e7BA6CA71) |
 | BoosterOwnerLite         | [0x04798C9B4546d90A97F687188d346D170298703c](https://fraxscan.com/address/0x04798C9B4546d90A97F687188d346D170298703c) |
-| SidechainView            | [0xA07d668CcF6c49B4A921eAd33eB075AFF843d6Ff](https://fraxscan.com/address/0xA07d668CcF6c49B4A921eAd33eB075AFF843d6Ff) |
+| SidechainView            | [0x1BA3DBd572B1b7aa3445Fa51492bfc644C67ad0F](https://fraxscan.com/address/0x1BA3DBd572B1b7aa3445Fa51492bfc644C67ad0F) |
 | SidechainClaimZap        | [0x4EA38a5739D467F7f84c06155ee2Ad745E5328E8](https://fraxscan.com/address/0x4EA38a5739D467F7f84c06155ee2Ad745E5328E8) |
 | ChildStashRewardDistro   | [0xb82434C7506B27c226564d6eF6AC9dDCb03E8bd3](https://fraxscan.com/address/0xb82434C7506B27c226564d6eF6AC9dDCb03E8bd3) |
 | ChildGaugeVoteRewards    | [0xCbdcd817a93E733d48086C7c068c82c5a123DC4e](https://fraxscan.com/address/0xCbdcd817a93E733d48086C7c068c82c5a123DC4e) |
