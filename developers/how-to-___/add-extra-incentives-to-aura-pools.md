@@ -2,7 +2,7 @@
 
 So you want to add a token as an additional incentive to an Aura pool? Well, there are a number of methods to accomplish this. Here we will identify the main avenue.
 
-#### Step 1:  Funding the StashRewardDistro
+#### Step 1: Funding the StashRewardDistro
 
 On each chain there is a `StashRewardDistro` contract that collects and distributed incentives on a weekly basis. View the addresses here [deployed-addresses](../deployed-addresses/ "mention")&#x20;
 
@@ -20,7 +20,7 @@ Any rewards added here are then to be distributed on the upcoming epoch (Thursda
 
 &#x20;The next thursday that rolls around, the tokens will be queued up and distributed linearly over the defined periods, provided Step 2 has been executed
 
-***
+---
 
 ### Using the UI
 
@@ -42,11 +42,14 @@ Currently this token list is limited, however this will change soon (TM) and it 
 
 \
 
-
 <figure><img src="../../.gitbook/assets/Screenshot 2024-04-23 at 09.25.45.png" alt=""><figcaption></figcaption></figure>
 
 #### Step 5: Add the rewards
 
-To add new rewards, you need to add a value of over 5000 USD, rewards that have been previously added have a minimum of 1000 USD.
+When adding a new reward, there are minimum values to keep in mind:
+
+- Rewards added to mainnet must have a value greater than or equal to 5000 USD
+- Rewards added on any other network must have a value greater than or equal to 2000 USD
+- Rewards on any network that have been previously added as a reward must have a minimum of 1000 USD
 
 Rewards have to be manually configured for pools, so they may not appear instantly. They will begin to be distributed on the following Thursday, provided the minimum amounts have been reached.
