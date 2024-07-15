@@ -103,7 +103,7 @@
 | stashFactory             | [0x60D6439631CC6f60ED15c07783B4c7848F87c84c](https://basescan.org/address/0x60D6439631CC6f60ED15c07783B4c7848F87c84c) |
 | tokenFactory             | [0x87299312C820607f1E7E4d0c6715CEB594306FE9](https://basescan.org/address/0x87299312C820607f1E7E4d0c6715CEB594306FE9) |
 | proxyFactory             | [0x731886426a3199b988194831031dfb993F25D961](https://basescan.org/address/0x731886426a3199b988194831031dfb993F25D961) |
-| sidechainView            | [0xE14360AA496A85FCfe4B75AFD2ec4d95CbA38Fe1](https://basescan.org/address/0xE14360AA496A85FCfe4B75AFD2ec4d95CbA38Fe1) |
+| sidechainView            | [0x609D44450231697227504e7fA6a327421B11BEAA](https://basescan.org/address/0x609D44450231697227504e7fA6a327421B11BEAA) |
 | keeperMulticall3         | [0x5C97f09506d60B90a817EB547ea4F03Ae990E798](https://basescan.org/address/0x5C97f09506d60B90a817EB547ea4F03Ae990E798) |
 | ClaimZap                 | [0x4EA38a5739D467F7f84c06155ee2Ad745E5328E8](https://basescan.org/address/0x5a5094e2a2a4c1B48a6630138a3b1076eC00B10d) |
 | ChildStashRewardDistro   | [0xcA85e2cE206b48ee28A87b0a06f9519ABE627451](https://basescan.org/address/0xcA85e2cE206b48ee28A87b0a06f9519ABE627451) |
