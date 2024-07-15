@@ -109,7 +109,7 @@
 | ChildStashRewardDistro   | [0xcA85e2cE206b48ee28A87b0a06f9519ABE627451](https://basescan.org/address/0xcA85e2cE206b48ee28A87b0a06f9519ABE627451) |
 | ChildGaugeVoteRewards    | [0x2863582272A424234FcE76d97099AcBd432acC01](https://basescan.org/address/0x2863582272A424234FcE76d97099AcBd432acC01) |
 | RewardPoolDepositWrapper | [0xa9952C914D86f896c53Bf17125c4104Cc058008E](https://basescan.org/address/0xa9952C914D86f896c53Bf17125c4104Cc058008E) |
-| AuraViewHelper           | [0xcE66E8300dC1d1F5b0e46E9145fDf680a7E41146](https://basescan.org/address/0xcE66E8300dC1d1F5b0e46E9145fDf680a7E41146) |
+| AuraViewHelper           | [0xBD2e14D04777e551a8fe3822cac0Df51984b029E](https://basescan.org/address/0xBD2e14D04777e551a8fe3822cac0Df51984b029E) |
 {% endtab %}
 
 {% tab title="Polygon ZkEvm" %}
