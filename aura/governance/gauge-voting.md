@@ -11,7 +11,7 @@ Read more about Balancer gauges here: [https://docs.balancer.fi/ecosystem/vebal-
 ## Gauge voting rules and information
 
 * Voting will be done via [Snapshot](https://vote.aura.finance).
-* Gauge weight votes will be **bi-weekly,** starting Thursdays at \~02:00 UTC and ending on Tuesdays 00:00 UTC.&#x20;
+* Gauge weight votes will be **bi-weekly,** starting Thursdays at \~02:00 UTC and ending on Tuesdays 02:00 UTC.&#x20;
 * Individual **vlAURA** holders may spread their votes among multiple pools in gauge weight votes.
 * Each gauge will have a hard cap of **50%** of Aura's **veBAL** assigned to it. Overflow will be distributed to other pools in proportion to their vote weight.
 * Each gauge must receive at least **0.1%** of the votes before weight is assigned.
