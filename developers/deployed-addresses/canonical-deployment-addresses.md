@@ -1,11 +1,7 @@
 # Canonical Deployment Addresses
 
-
-
 {% tabs %}
 {% tab title="Mainnet" %}
-
-
 | Contract                               | Address                                                                                                               |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | L1Coordinator                          | [0xaA54f3b282805822419265208e669d12372a3811](https://etherscan.io/address/0xaA54f3b282805822419265208e669d12372a3811) |
@@ -23,8 +19,7 @@
 | Sudo                                   | [0xb370Ebd7ded0c87b4509FF6f13F07B7F1693Bf46](https://etherscan.io/address/0xb370Ebd7ded0c87b4509FF6f13F07B7F1693Bf46) |
 | View                                   | [0x208024E643564fb4C990481eB4F9ec1957f64c11](https://etherscan.io/address/0x208024E643564fb4C990481eB4F9ec1957f64c11) |
 | AuraDistributor                        | [0x96D15D08538A17A03B0210FD1626D5f42bdba9a4](https://etherscan.io/address/0x96D15D08538A17A03B0210FD1626D5f42bdba9a4) |
-
-
+| L1PoolManagerProxy                     | [0x54F2DEc216DFFB9174eDb0d53910bADA5227A14d](https://etherscan.io/address/0x54F2DEc216DFFB9174eDb0d53910bADA5227A14d) |
 {% endtab %}
 
 {% tab title="Goerli" %}
@@ -35,4 +30,3 @@
 | AuraBalOFT (ProxyOFT) | [0x76A383895103bde55987cEF54dbA7a2A57B72B73](https://goerli.etherscan.io/address/0x76A383895103bde55987cEF54dbA7a2A57B72B73) |
 {% endtab %}
 {% endtabs %}
-

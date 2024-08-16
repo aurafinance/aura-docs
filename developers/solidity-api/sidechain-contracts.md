@@ -20,6 +20,8 @@ Aura Finance is expanding to become a cross-chain protocol. Deploying to chains 
 * PausableOFT.sol : OFT extension that allows a `guardian` address to perform an emergency pause&#x20;
 * PausableProxyOFT.sol : Proxy OFT extension that allows a `guardian` address to perform an emergency pause&#x20;
 * PauseGuardian.sol : Allows to implement pauses triggered by a `guardian` address
+* L1PoolManagerProxy.sol : Allows to permissionless add pools on any supported sidechain
+* L2PoolManagerProxy.sol : Given a root gauge on L1PoolManagerProxy it adds a gauge recipient on PoolManagerLite
 
 
 
@@ -3353,3 +3355,233 @@ function balanceOfPool(address _gauge) public view returns (uint256)
 ```solidity
 function execute(address _to, uint256 _value, bytes _data) external returns (bool, bytes)
 ```
+
+### L1PoolManagerProxy
+
+_Allows to permissionless add pools on any supported sidechain. 1. Owner must configure gaugeTypes mapping (lzChainId => balancer gauge type) 2. User most provide a root gauge address and the layer zero chain id, with enought native fee to be able to add a pool on the destination chain._
+
+#### NO\_EXTRA\_GAS
+
+```solidity
+uint256 NO_EXTRA_GAS
+```
+
+#### PT\_SEND
+
+```solidity
+uint16 PT_SEND
+```
+
+#### lzChainId
+
+```solidity
+uint16 lzChainId
+```
+
+_LayerZero chain ID for this chain_
+
+#### gaugeController
+
+```solidity
+address gaugeController
+```
+
+_Gauge controller address_
+
+#### gaugeCheckpointer
+
+```solidity
+address gaugeCheckpointer
+```
+
+_Gauge controller address_
+
+#### gaugeTypes
+
+```solidity
+mapping(uint16 => string) gaugeTypes
+```
+
+_lzChainId => gauge type_
+
+#### AddSidechainPool
+
+```solidity
+event AddSidechainPool(uint16 dstChainId, address rootGauge, address dstGauge)
+```
+
+#### constructor
+
+```solidity
+constructor(uint16 _lzChainId, address _lzEndpoint, address _gaugeController, address _gaugeCheckpointer) public
+```
+
+**Parameters**
+
+| Name                | Type    | Description                |
+| ------------------- | ------- | -------------------------- |
+| \_lzChainId         | uint16  | LayerZero chain ID         |
+| \_lzEndpoint        | address | LayerZero endpoint         |
+| \_gaugeController   | address | Gauge controller address   |
+| \_gaugeCheckpointer | address | Guage checkpointer address |
+
+#### receive
+
+```solidity
+receive() external payable
+```
+
+#### setGaugeType
+
+```solidity
+function setGaugeType(uint16 _lzChainId, string gaugeType) external
+```
+
+Maps layer zero chain id with balancer gauge type.
+
+**Parameters**
+
+| Name        | Type   | Description          |
+| ----------- | ------ | -------------------- |
+| \_lzChainId | uint16 | Layer zero chain id. |
+| gaugeType   | string | Balancer gaugeType.  |
+
+#### addPools
+
+```solidity
+function addPools(address[] _gauges, uint16 _dstChainId, address _zroPaymentAddress, bytes _adapterParams) external payable returns (bool)
+```
+
+Send a message to add a pool on a sidechain.
+
+_Set adapterParams correctly per dstChainId to provide enough gas to add a pool on the destination chain._
+
+**Parameters**
+
+| Name                | Type       | Description                                                                                           |
+| ------------------- | ---------- | ----------------------------------------------------------------------------------------------------- |
+| \_gauges            | address\[] | The root gauge addresses.                                                                             |
+| \_dstChainId        | uint16     | The LayerZero destination chain ID eg optimism is 111                                                 |
+| \_zroPaymentAddress | address    | The LayerZero ZRO payment address                                                                     |
+| \_adapterParams     | bytes      | The adapter params, very important as default gas limit is not enough to add a pool on any sidechain. |
+
+
+
+### L2PoolManagerProxy
+
+_Given a root gauge on L1PoolManagerProxy it adds a gauge recipient on PoolManagerLite_
+
+#### poolManager
+
+```solidity
+address poolManager
+```
+
+_The poolManager address_
+
+#### isValidGauge
+
+```solidity
+mapping(address => bool) isValidGauge
+```
+
+_Mapping of valid gauges sent from L1_
+
+#### PoolManagerUpdated
+
+```solidity
+event PoolManagerUpdated(address poolManager)
+```
+
+#### constructor
+
+```solidity
+constructor() public
+```
+
+#### initialize
+
+```solidity
+function initialize(address _lzEndpoint, address _poolManager) external
+```
+
+Initialize the contract.
+
+**Parameters**
+
+| Name          | Type    | Description                 |
+| ------------- | ------- | --------------------------- |
+| \_lzEndpoint  | address | LayerZero endpoint contract |
+| \_poolManager | address | Pool Manager address        |
+
+#### isShutdown
+
+```solidity
+function isShutdown() external view returns (bool)
+```
+
+#### setPoolManager
+
+```solidity
+function setPoolManager(address _poolManager) external
+```
+
+#### setPoolManagerOperator
+
+```solidity
+function setPoolManagerOperator(address _operator) external
+```
+
+sets the poolManager operator.
+
+_Usefull to reset pool manager operator value._
+
+#### ownerAddPool
+
+```solidity
+function ownerAddPool(address _gauge) external returns (bool)
+```
+
+Adds new pool directly on L2.
+
+**Parameters**
+
+| Name    | Type    | Description        |
+| ------- | ------- | ------------------ |
+| \_gauge | address | The gauge address. |
+
+#### addPool
+
+```solidity
+function addPool(address _gauge) external returns (bool)
+```
+
+Adds new pool directly on L2 checking for a valid gauge
+
+**Parameters**
+
+| Name    | Type    | Description        |
+| ------- | ------- | ------------------ |
+| \_gauge | address | The gauge address. |
+
+#### shutdownPool
+
+```solidity
+function shutdownPool(uint256 _pid) external returns (bool)
+```
+
+Shutdowns a given pool.
+
+**Parameters**
+
+| Name  | Type    | Description  |
+| ----- | ------- | ------------ |
+| \_pid | uint256 | The pool id. |
+
+#### shutdownSystem
+
+```solidity
+function shutdownSystem() external
+```
+
+Shutdows the system, it is not reversible.
