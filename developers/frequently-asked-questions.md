@@ -347,6 +347,12 @@ A: Use “Rewards contract address” to show BAL rewards, use “extraRewards�
 
 ## Additional Partner / Integration Questions
 
+**Q:How can I join the ecosystem, and how can I get my new pool or token listed on Aura?**
+
+A: Aura allows self-deploy of Balancer pools onto the protocol providing that a number of requirements are met. You can view all of the steps on the [Join page](https://app.aura.finance/#/1/join)
+
+
+
 **Q: Do I have to keep providing incentives to my gauge?**
 
 A: Yes.
