@@ -33,7 +33,7 @@ The Aura Subgraph indexes data on the Aura smart contracts with a GraphQL interf
     <tr>
       <td>Gnosis</td>
       <td>
-        <a href="https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-gnosis/api" target="_blank">https://subgraph.satsuma-prod.com/cae76ab408ca/1xhub-ltd/aura-finance-gnosis/api</a>
+        <a href="https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-gnosis/v0.0.4/" target="_blank">https://api.subgraph.ormilabs.com/api/public/396b336b-4ed7-469f-a8f4-468e1e26e9a8/subgraphs/aura-finance-gnosis/v0.0.4/</a>
       </td>
     </tr>
     <tr>
